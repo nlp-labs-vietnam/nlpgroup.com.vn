@@ -255,66 +255,66 @@ if (localStorage.getItem('darkMode') === "on") {
     </div>
     <div class="popup popup_settings mfp-hide" id="popup-settings">
       <form class="popup__form">
-        <div class="popup__title h6">Account Settings</div>
-        <div class="popup__tags"><a class="popup__tag active" href="#">Profile</a><a class="popup__tag" href="#">Password</a><a class="popup__tag" href="#">Email</a><a class="popup__tag" href="#">Notification</a><a class="popup__tag" href="#">Settings</a></div>
+        <div class="popup__title h6">Cài đặt tài khoản</div>
+        <div class="popup__tags"><a class="popup__tag active" href="#">Hồ sơ</a><a class="popup__tag" href="#">Mật khẩu</a><a class="popup__tag" href="#">Email</a><a class="popup__tag" href="#">Thông báo</a><a class="popup__tag" href="#">Cài đặt</a></div>
         <div class="popup__field field mobile-show">
           <div class="field__wrap"><select class="field__select">
-              <option>Your Profile</option>
-              <option>Password</option>
-              <option>Channels</option>
-              <option>Apps</option>
-              <option>Data Export</option>
+              <option>Hồ sơ cá nhân</option>
+              <option>Mật khẩu</option>
+              <option>Kênh</option>
+              <option>Ứng dụng</option>
+              <option>Xuất dữ liệu</option>
             </select></div>
         </div>
         <div class="popup__user">
-          <div class="popup__title h6 mobile-show">Your Profile</div>
-          <div class="popup__category caption-sm">Your Avatar</div>
+          <div class="popup__title h6 mobile-show">Hồ sơ cá nhân</div>
+          <div class="popup__category caption-sm">Ảnh đại diện</div>
           <div class="popup__line">
             <div class="popup__ava"><img class="popup__pic" src="img/avatar.png" alt=""></div>
             <div class="popup__details">
               <div class="popup__btns">
-                <div class="popup__loading"><input class="popup__file" type="file"><button class="popup__btn btn btn_purple">Upload New</button></div><button class="popup__btn btn btn_gray">Delete Avatar</button>
+                <div class="popup__loading"><input class="popup__file" type="file"><button class="popup__btn btn btn_purple">Tải ảnh lên</button></div><button class="popup__btn btn btn_gray">Xoá ảnh</button>
               </div>
-              <div class="popup__text">Avatar help your teammates recognize you in Unity.</div>
+              <div class="popup__text">Ảnh đại diện giúp nhận diện tài khoản trong hệ thống CD Restop.</div>
             </div>
           </div>
         </div>
         <div class="popup__fieldset">
           <div class="popup__row">
             <div class="popup__field field">
-              <div class="field__label">Your Full Name</div>
+              <div class="field__label">Họ và tên</div>
               <div class="field__wrap"><input class="field__input" type="text"></div>
             </div>
             <div class="popup__field field">
-              <div class="field__label">Display Name</div>
-              <div class="field__wrap"><input class="field__input" type="text"></div>
-            </div>
-          </div>
-          <div class="popup__row">
-            <div class="popup__field field">
-              <div class="field__label">Role</div>
-              <div class="field__wrap"><input class="field__input" type="text"></div>
-            </div>
-            <div class="popup__field field">
-              <div class="field__label">Location</div>
+              <div class="field__label">Tên hiển thị</div>
               <div class="field__wrap"><input class="field__input" type="text"></div>
             </div>
           </div>
           <div class="popup__row">
             <div class="popup__field field">
-              <div class="field__label">Role</div>
+              <div class="field__label">Chức vụ</div>
               <div class="field__wrap"><input class="field__input" type="text"></div>
             </div>
             <div class="popup__field field">
-              <div class="field__label">Team</div>
+              <div class="field__label">Địa điểm</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+          </div>
+          <div class="popup__row">
+            <div class="popup__field field">
+              <div class="field__label">Đơn vị</div>
+              <div class="field__wrap"><input class="field__input" type="text"></div>
+            </div>
+            <div class="popup__field field">
+              <div class="field__label">Nhóm</div>
               <div class="field__wrap"><input class="field__input" type="text"></div>
             </div>
           </div>
           <div class="popup__field field">
-            <div class="field__label">Bio</div>
+            <div class="field__label">Giới thiệu</div>
             <div class="field__wrap"><textarea class="field__textarea"></textarea></div>
           </div>
-        </div><button class="popup__btn btn btn_purple" type="submit">Update Profile</button>
+        </div><button class="popup__btn btn btn_purple" type="submit">Cập nhật hồ sơ</button>
       </form>
     </div>
     <div class="popup popup_stories mfp-hide" id="popup-stories">
@@ -329,12 +329,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -347,12 +347,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -365,12 +365,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -383,12 +383,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -401,12 +401,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -419,12 +419,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -437,12 +437,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -455,12 +455,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -473,12 +473,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>
@@ -491,12 +491,12 @@ if (localStorage.getItem('darkMode') === "on") {
                 </div><a class="stories__user" href="#">
                   <div class="stories__ava"><img class="stories__pic" src="img/ava-1.png" alt=""></div>
                   <div class="stories__desc">
-                    <div class="stories__man confirm">Tran Mau Tri Tam </div>
-                    <div class="stories__game">Call of Duty</div>
-                    <div class="status orange">2.8K viewers</div>
+                    <div class="stories__man confirm">Annie Nguyễn</div>
+                    <div class="stories__game">Chủ tịch HĐQT</div>
+                    <div class="status orange">CD Restop</div>
                   </div>
                 </a>
-                <form class="stories__form"><input class="stories__input" type="text" placeholder="Send a message…"><button class="stories__btn btn btn_purple">Send</button><button class="stories__smile"><svg class="icon icon-editor-smile">
+                <form class="stories__form"><input class="stories__input" type="text" placeholder="Gửi tin nhắn…"><button class="stories__btn btn btn_purple">Gửi</button><button class="stories__smile"><svg class="icon icon-editor-smile">
                       <use xlink:href="img/sprite.svg#icon-editor-smile"></use>
                     </svg></button></form>
               </div>

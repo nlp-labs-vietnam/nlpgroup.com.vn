@@ -19,24 +19,24 @@ html(lang="en")
 		//- popup settings
 		.popup.popup_settings.mfp-hide#popup-settings
 			form.popup__form
-				.popup__title.h6 Account Settings
+				.popup__title.h6 Cài đặt tài khoản
 				.popup__tags
-					a.popup__tag.active(href="#") Profile
-					a.popup__tag(href="#") Password
+					a.popup__tag.active(href="#") Hồ sơ
+					a.popup__tag(href="#") Mật khẩu
 					a.popup__tag(href="#") Email
-					a.popup__tag(href="#") Notification
-					a.popup__tag(href="#") Settings
+					a.popup__tag(href="#") Thông báo
+					a.popup__tag(href="#") Cài đặt
 				.popup__field.field.mobile-show
 					.field__wrap
 						select.field__select
-							option Your Profile
-							option Password
-							option Channels
-							option Apps
-							option Data Export
+							option Hồ sơ cá nhân
+							option Mật khẩu
+							option Kênh
+							option Ứng dụng
+							option Xuất dữ liệu
 				.popup__user
-					.popup__title.h6.mobile-show Your Profile
-					.popup__category.caption-sm Your Avatar
+					.popup__title.h6.mobile-show Hồ sơ cá nhân
+					.popup__category.caption-sm Ảnh đại diện
 					.popup__line
 						.popup__ava
 							img.popup__pic(src="img/avatar.png" alt="")
@@ -44,42 +44,42 @@ html(lang="en")
 							.popup__btns
 								.popup__loading
 									input.popup__file(type="file")
-									button.popup__btn.btn.btn_purple Upload New
-								button.popup__btn.btn.btn_gray Delete Avatar
-							.popup__text Avatar help your teammates recognize you in Unity.
+									button.popup__btn.btn.btn_purple Tải ảnh lên
+								button.popup__btn.btn.btn_gray Xoá ảnh
+							.popup__text Ảnh đại diện giúp nhận diện tài khoản trong hệ thống CD Restop.
 				.popup__fieldset
 					.popup__row
 						.popup__field.field
-							.field__label Your Full Name
+							.field__label Họ và tên
 							.field__wrap
 								input.field__input(type="text")
 						.popup__field.field
-							.field__label Display Name
-							.field__wrap
-								input.field__input(type="text")
-					.popup__row
-						.popup__field.field
-							.field__label Role
-							.field__wrap
-								input.field__input(type="text")
-						.popup__field.field
-							.field__label Location
+							.field__label Tên hiển thị
 							.field__wrap
 								input.field__input(type="text")
 					.popup__row
 						.popup__field.field
-							.field__label Role
+							.field__label Chức vụ
 							.field__wrap
 								input.field__input(type="text")
 						.popup__field.field
-							.field__label Team
+							.field__label Địa điểm
+							.field__wrap
+								input.field__input(type="text")
+					.popup__row
+						.popup__field.field
+							.field__label Đơn vị
+							.field__wrap
+								input.field__input(type="text")
+						.popup__field.field
+							.field__label Nhóm
 							.field__wrap
 								input.field__input(type="text")
 					.popup__field.field
-						.field__label Bio
+						.field__label Giới thiệu
 						.field__wrap
 							textarea.field__textarea
-				button.popup__btn.btn.btn_purple(type="submit") Update Profile
+				button.popup__btn.btn.btn_purple(type="submit") Cập nhật hồ sơ
 		//- popup stories
 		.popup.popup_stories.mfp-hide#popup-stories
 			.stories
@@ -95,12 +95,12 @@ html(lang="en")
 										.stories__ava
 											img.stories__pic(src="img/ava-1.png" alt="")
 										.stories__desc
-											.stories__man.confirm Tran Mau Tri Tam 
-											.stories__game Call of Duty
-											.status.orange 2.8K viewers
+											.stories__man.confirm Annie Nguyễn
+											.stories__game Chủ tịch HĐQT
+											.status.orange CD Restop
 									form.stories__form
-										input.stories__input(type="text" placeholder="Send a message…")
-										button.stories__btn.btn.btn_purple Send
+										input.stories__input(type="text" placeholder="Gửi tin nhắn…")
+										button.stories__btn.btn.btn_purple Gửi
 										button.stories__smile
 											+i('editor-smile')
 						+slide

@@ -1,5 +1,5 @@
 ---
-title: New feed
+title: CD Restop — Kiến tạo Hạ tầng An Sinh
 ---
 extends layouts/_layout
 block content
@@ -10,27 +10,27 @@ block content
 			.main.js-main
 				.main__container
 					.main__for.js-slider.js-main-for
-						mixin slideBig(image)
+						mixin slideBig(image, title, tag, sub)
 							.main__slide
 								.main__item(style="background-image: url(" + image + ");")
 									.main__details
-										.main__live.live.live_big Live
-										.main__title.h4 Renegades vs Chiefs - ESL Pro League Season 16 - Playoffs
+										.main__live.live.live_big #{tag}
+										.main__title.h4 #{title}
 										.main__parameters
 											.main__parameter
 												.main__icon
 													img.main__pic(src="img/league-of-legends.png" alt="")
-												.main__text League of Legends®
-											.main__parameter 🇺🇸 English
-										button.main__btn.btn.btn_purple Watch
-						+slideBig('img/main-pic-1.png')
-						+slideBig('img/main-pic-2.jpg')
-						+slideBig('img/main-pic-3.jpg')
-						+slideBig('img/main-pic-4.jpg')
-						+slideBig('img/main-pic-1.png')
-						+slideBig('img/main-pic-2.jpg')
-						+slideBig('img/main-pic-3.jpg')
-						+slideBig('img/main-pic-4.jpg')
+												.main__text #{sub}
+											.main__parameter 🇻🇳 Việt Nam
+										button.main__btn.btn.btn_purple Tìm hiểu thêm
+						+slideBig('img/main-pic-1.png', 'Kiến tạo Hạ tầng An Sinh — 500 điểm dừng chân trên 34 tỉnh, thành', 'Dự án', 'CD Restop Corporation')
+						+slideBig('img/main-pic-2.jpg', 'Scharge — 14.000 điểm sạc EV vệ tinh trên toàn quốc', 'Sạc EV', 'Chuẩn kết nối quốc tế')
+						+slideBig('img/main-pic-3.jpg', 'CD GO · ZuumViet — Ứng dụng vận tải xanh kết nối hệ sinh thái', 'EV', 'Chuyển đổi xanh')
+						+slideBig('img/main-pic-4.jpg', 'GOMO Mart — Hàng thiết yếu giá bình ổn phục vụ người lao động', 'An sinh', 'Thương mại An Sinh')
+						+slideBig('img/main-pic-1.png', 'Chuẩn cam kết «5 CÓ» tại mỗi điểm dừng chân CD Restop', 'Cam kết', 'An sinh · Chuẩn hoá · Nhân bản')
+						+slideBig('img/main-pic-2.jpg', 'Cúp Công nghệ Chiến lược 2026 — DAVAS 2026', 'Giải thưởng', 'Đổi mới sáng tạo')
+						+slideBig('img/main-pic-3.jpg', 'Đối tác chiến lược: SPT, Coro Energy, DTH Holdings', 'Đối tác', 'Hợp tác toàn diện')
+						+slideBig('img/main-pic-4.jpg', 'Vốn điều lệ 50 tỷ VNĐ — Thành lập 26/05/2017', 'Pháp nhân', 'MST: 0314428519')
 					.main__nav.js-main-nav
 						mixin slideSm(image)
 							.main__preview(style="background-image: url(" + image + ");")
@@ -48,33 +48,32 @@ block content
 			.page__center
 				.collection
 					.collection__head
-						.collection__title.h5 Live channels
+						.collection__title.h5 Hệ sinh thái CD Restop
 						.collection__field.field
 							.field__wrap
 								select.field__select
-									option Popular
-									option New
-									option Free
+									option Tất cả
+									option Trạm dừng chân
+									option Vận tải xanh
+									option Thương mại an sinh
 					.collection__list
-						+card('img/card-pic-1.png', '2020 World Champs Gaming Warzone', 'img/ava-1.png', 'confirm', 'Tam Tran', 'Call of Duty®')
-						+card('img/card-pic-2.png', 'Team Flash vs. Saigon phantom', 'img/ava-2.png', 'confirm', 'Dash UI8', 'Garena of Valor')
-						+card('img/card-pic-3.png', '2020 World Champs Gaming Warzone', 'img/ava-3.png', 'confirm', 'UI8 Gaming', 'Call of Duty®')
-						+card('img/card-pic-4.png', '2020 World Champs Gaming Warzone', 'img/ava-4.png', '', 'Gabriel Erickson', 'Garena Free Fire')
-				+users('From Channels You Follow')
-				+categories('Popular Categories')
+						+card('img/card-pic-1.png', 'CD Restop — Trạm dừng chân tích hợp sạc EV & tiện ích an sinh', 'img/ava-1.png', 'confirm', 'Annie Nguyễn', 'BL1 · Hạ tầng an sinh')
+						+card('img/card-pic-2.png', 'CD GO · ZuumViet — Đặt xe công nghệ & vận tải xanh', 'img/ava-2.png', 'confirm', 'Nguyễn Ngọc Hải', 'BL2 · Chuyển đổi EV')
+						+card('img/card-pic-3.png', 'GOMO — Thương mại an sinh, hàng hoá giá bình ổn', 'img/ava-3.png', 'confirm', 'Hà Tuấn Khang', 'BL3 · Hàng an sinh')
+						+card('img/card-pic-4.png', 'Scharge — Trụ sạc nhanh DC/AC chuẩn quốc tế', 'img/ava-4.png', '', 'Giáp Thiện Phúc', 'Công nghệ sạc EV')
+				+users('Ban lãnh đạo CD Restop')
+				+categories('Ba trụ cột hệ sinh thái')
 				.collection
 					.collection__head
-						.collection__title.h5 Recommended Videos
+						.collection__title.h5 Tin tức & Dự án mới nhất
 						.collection__field.field
 							.field__wrap
 								select.field__select
-									option Most Recent
-									option New
-									option Free
+									option Mới nhất
+									option Dự án
+									option Đối tác
 					.collection__list
-						+card('img/card-pic-1.png', '2020 World Champs Gaming Warzone', 'img/ava-1.png', 'confirm', 'Tam Tran', 'Call of Duty®')
-						+card('img/card-pic-2.png', 'Team Flash vs. Saigon phantom', 'img/ava-2.png', 'confirm', 'Dash UI8', 'Garena of Valor')
-						+card('img/card-pic-3.png', '2020 World Champs Gaming Warzone', 'img/ava-3.png', 'confirm', 'UI8 Gaming', 'Call of Duty®')
-						+card('img/card-pic-4.png', '2020 World Champs Gaming Warzone', 'img/ava-4.png', '', 'Gabriel Erickson', 'Garena Free Fire')
-
-
+						+card('img/card-pic-1.png', 'CD Restop nhận Cúp Công nghệ Chiến lược DAVAS 2026', 'img/ava-1.png', 'confirm', 'Ban truyền thông', 'Giải thưởng · 2026')
+						+card('img/card-pic-2.png', 'Ký kết hợp tác chiến lược toàn diện với SPT Group', 'img/ava-2.png', 'confirm', 'Ban hợp tác', 'Đối tác · 2026')
+						+card('img/card-pic-3.png', 'Triển khai 14.000 điểm sạc Scharge trên 34 tỉnh, thành', 'img/ava-3.png', 'confirm', 'Ban kỹ thuật', 'Dự án · Scharge')
+						+card('img/card-pic-4.png', 'GOMO Mart khai trương chuỗi cửa hàng an sinh đầu tiên', 'img/ava-4.png', '', 'Ban GOMO', 'Thương mại · An sinh')
