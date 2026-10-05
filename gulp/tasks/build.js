@@ -1,28 +1,32 @@
-var gulp        = require('gulp');
-var runSequence = require('run-sequence');
-var config      = require('../config');
+var gulp   = require('gulp');
+var config = require('../config');
 
-function build(cb) {
-    runSequence(
-        'clean',
-        'sprite:svg',
-        'svgo',
-        'sass',
-        'pug',
-        'js',
-        'copy',
-        cb
-    );
-}
+gulp.task('build', gulp.series(
+    function setBuildEnv(done) {
+        config.setEnv('production');
+        config.logEnv();
+        done();
+    },
+    'clean',
+    'sprite:svg',
+    'svgo',
+    'sass',
+    'pug',
+    'js',
+    'copy'
+));
 
-gulp.task('build', function(cb) {
-    config.setEnv('production');
-    config.logEnv();
-    build(cb);
-});
-
-gulp.task('build:dev', function(cb) {
-    config.setEnv('development');
-    config.logEnv();
-    build(cb);
-});
+gulp.task('build:dev', gulp.series(
+    function setDevEnv(done) {
+        config.setEnv('development');
+        config.logEnv();
+        done();
+    },
+    'clean',
+    'sprite:svg',
+    'svgo',
+    'sass',
+    'pug',
+    'js',
+    'copy'
+));

@@ -18,13 +18,11 @@ gulp.task('sprite:svg', function() {
             js2svg: {
                 pretty: true
             },
-            plugins: [{
-                removeDesc: true
-            }, {
-                cleanupIDs: true
-            }, {
-                mergePaths: false
-            }]
+            plugins: [
+                { name: 'removeDesc' },
+                { name: 'cleanupIDs' },
+                { name: 'mergePaths', active: false }
+            ]
         }))
         .pipe(rename({ prefix: 'icon-' }))
         .pipe(svgStore({ inlineSvg: false }))
@@ -34,7 +32,7 @@ gulp.task('sprite:svg', function() {
                 var $this  = $(this);
                 var size   = $this.attr('viewBox').split(' ').splice(2);
                 var name   = $this.attr('id');
-                var ratio  = size[0] / size[1]; // symbol width / symbol height
+                var ratio  = size[0] / size[1];
                 var fill   = $this.find('[fill]:not([fill="currentColor"])').attr('fill');
                 var stroke = $this.find('[stroke]').attr('stroke');
                 return {
@@ -50,7 +48,7 @@ gulp.task('sprite:svg', function() {
                     symbols: data
                 }))
                 .pipe(gulp.dest(config.src.sassGen));
-            gulp.src(__dirname + '/sprite.html')
+            gulp.src(__dirname + '/sprite.html', { allowEmpty: true })
                 .pipe(consolidate('lodash', {
                     symbols: data
                 }))
@@ -69,5 +67,5 @@ gulp.task('sprite:svg', function() {
 });
 
 gulp.task('sprite:svg:watch', function() {
-    gulp.watch(config.src.iconsSvg + '/*.svg', ['sprite:svg']);
+    gulp.watch(config.src.iconsSvg + '/*.svg', gulp.series('sprite:svg'));
 });

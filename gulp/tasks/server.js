@@ -1,12 +1,11 @@
 var gulp   = require('gulp');
 var server = require('browser-sync').create();
-var util   = require('gulp-util');
+var log    = require('fancy-log');
+var colors = require('ansi-colors');
+var argv   = require('minimist')(process.argv.slice(2));
 var config = require('../config');
 
-// in CL 'gulp server --open' to open current project in browser
-// in CL 'gulp server --tunnel siteName' to make project available over http://siteName.localtunnel.me
-
-gulp.task('server', function() {
+gulp.task('server', function(done) {
     server.init({
         server: {
             baseDir: !config.production ? [config.dest.root, config.src.root] : config.dest.root,
@@ -20,16 +19,17 @@ gulp.task('server', function() {
             config.dest.css + '/*.css',
             config.dest.img + '/**/*'
         ],
-        port: util.env.port || 3000,
-        logLevel: 'info', // 'debug', 'info', 'silent', 'warn'
+        port: argv.port || 3000,
+        logLevel: 'info',
         logConnections: false,
         logFileChanges: true,
         open: true,
         notify: false,
         ghostMode: false,
         online: true,
-        tunnel: util.env.tunnel || null
+        tunnel: argv.tunnel || null
     });
+    done();
 });
 
 module.exports = server;

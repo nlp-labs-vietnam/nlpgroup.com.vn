@@ -1,8 +1,8 @@
-var gulp     = require('gulp');
-var svgmin   = require('gulp-svgmin');
-var changed  = require('gulp-changed');
-var plumber  = require('gulp-plumber');
-var config   = require('../config');
+var gulp   = require('gulp');
+var svgmin = require('gulp-svgmin');
+var changed = require('gulp-changed');
+var plumber = require('gulp-plumber');
+var config  = require('../config');
 
 gulp.task('svgo', function() {
     return gulp
@@ -15,17 +15,15 @@ gulp.task('svgo', function() {
             js2svg: {
                 pretty: true
             },
-            plugins: [{
-                removeDesc: true
-            }, {
-                cleanupIDs: true
-            }, {
-                mergePaths: false
-            }]
+            plugins: [
+                { name: 'removeDesc' },
+                { name: 'cleanupIDs' },
+                { name: 'mergePaths', active: false }
+            ]
         }))
         .pipe(gulp.dest(config.dest.img));
 });
 
 gulp.task('svgo:watch', function() {
-    gulp.watch(config.src.img + '/svgo/**/*.svg', ['svgo']);
+    gulp.watch(config.src.img + '/svgo/**/*.svg', gulp.series('svgo'));
 });

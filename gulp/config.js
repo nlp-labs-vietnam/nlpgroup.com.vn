@@ -1,6 +1,8 @@
-var util = require('gulp-util');
+var log    = require('fancy-log');
+var colors = require('ansi-colors');
+var argv   = require('minimist')(process.argv.slice(2));
 
-var production = util.env.production || util.env.prod || false;
+var production = argv.production || argv.prod || false;
 var destPath = 'build';
 
 var config = {
@@ -45,9 +47,9 @@ var config = {
     },
 
     logEnv: function() {
-        util.log(
+        log(
             'Environment:',
-            util.colors.white.bgRed(' ' + process.env.NODE_ENV + ' ')
+            colors.white.bgRed(' ' + process.env.NODE_ENV + ' ')
         );
     },
 

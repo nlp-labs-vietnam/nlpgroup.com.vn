@@ -8,7 +8,7 @@ var config       = require('../config');
 
 var processors = [
     autoprefixer({
-        browsers: ['last 4 versions'],
+        overrideBrowserslist: ['last 4 versions'],
         cascade: false
     }),
     mqpacker({
@@ -21,17 +21,16 @@ gulp.task('sass', function() {
         .src(config.src.sass + '/*.{sass,scss}')
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: config.production ? 'compact' : 'expanded', // nested, expanded, compact, compressed
+            outputStyle: config.production ? 'compressed' : 'expanded',
             precision: 5
-        }))
-        .on('error', config.errorHandler)
+        }).on('error', sass.logError))
         .pipe(postcss(processors))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(config.dest.css));
 });
 
 gulp.task('sass:watch', function() {
-    gulp.watch(config.src.sass + '/**/*.{sass,scss}', ['sass']);
+    gulp.watch(config.src.sass + '/**/*.{sass,scss}', gulp.series('sass'));
 });
 
 function isMax(mq) {

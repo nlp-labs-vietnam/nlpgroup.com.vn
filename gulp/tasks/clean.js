@@ -1,12 +1,13 @@
 var gulp   = require('gulp');
 var del    = require('del');
-var util   = require('gulp-util');
+var log    = require('fancy-log');
+var colors = require('ansi-colors');
 var config = require('../config');
 
-gulp.task('clean', function(cb) {
+gulp.task('clean', function() {
     return del([
         config.dest.root
     ]).then(function(paths) {
-        util.log('Deleted:', util.colors.magenta(paths.join('\n')));
+        log('Deleted:', colors.magenta(paths.join('\n')));
     });
 });
