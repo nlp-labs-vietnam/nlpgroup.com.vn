@@ -16,11 +16,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm install --ignore-scripts --legacy-peer-deps
+
+      - name: Patch graceful-fs in vinyl-fs
+        run: rm -rf node_modules/vinyl-fs/node_modules/graceful-fs
 
       - name: Build
         run: npx gulp build --production
