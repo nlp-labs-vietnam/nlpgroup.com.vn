@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use 'sass:math';
+
 // Default variables
 $font_size: 14px !default;
 $font_size_small: 12px !default;
@@ -40,7 +43,7 @@ $arrow_color: $gray !default;
   white-space: nowrap;
   width: auto;
   &:hover {
-    border-color: darken($gray_light, 5%);
+    border-color: color.adjust($gray_light, $lightness: -5%);
   }
   &:active, &:focus {
     border-color: $primary_light;
@@ -75,11 +78,11 @@ $arrow_color: $gray !default;
     }
   }
   &.disabled {
-    border-color: lighten($gray_light, 2%);
+    border-color: color.adjust($gray_light, $lightness: 2%);
     color: $gray;
     pointer-events: none;
-    &:after { 
-      border-color: lighten($arrow_color, 20%);
+    &:after {
+      border-color: color.adjust($arrow_color, $lightness: 20%);
     }
   }
   
@@ -126,7 +129,7 @@ $arrow_color: $gray !default;
     position: absolute;
     top: 100%; left: 0;
     transform-origin: 50% 0;
-    transform: scale(.75) translateY(- $input_height / 2);
+    transform: scale(.75) translateY(math.div(-$input_height, 2));
     transition: all .2s cubic-bezier(0.5, 0, 0, 1.25), opacity .15s ease-out;
     z-index: 9;
     &:hover .option:not(:hover) {

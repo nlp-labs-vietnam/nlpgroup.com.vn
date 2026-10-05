@@ -1,3 +1,4 @@
+@use 'sass:math'
 .player
 	+m
 		position: relative
@@ -144,7 +145,7 @@
 		border-radius: 16px 
 		font-size: 18px
 		font-weight: 500 
-		line-height: (24/18)
+		line-height: math.div(24, 18)
 		color: $text 
 		transition: all .25s
 		+m
@@ -186,7 +187,7 @@
 			+fi
 			font-size: 18px
 	&__note
-		line-height: (24/14)
+		line-height: math.div(24, 14)
 		color: $gray-light 
 		+m
 			font-size: 13px

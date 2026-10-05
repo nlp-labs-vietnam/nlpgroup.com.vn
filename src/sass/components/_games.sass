@@ -1,3 +1,5 @@
+@use 'sass:color'
+
 .games
 	&__head
 		display: flex
@@ -175,7 +177,7 @@
 				&:after
 					background: transparent
 				&:hover:before
-					background: darken($border, 10)  
+					background: color.adjust($border, $lightness: -10%)
 			&.slick-active button
 				&:before
 					background: $wh

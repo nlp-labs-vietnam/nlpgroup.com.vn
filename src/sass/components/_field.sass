@@ -1,8 +1,9 @@
+@use 'sass:math'
 .field
 	&__label
 		margin-bottom: 16px
 		font-size: 12px
-		line-height: (16/12) 
+		line-height: math.div(16, 12) 
 		font-weight: 500
 		color: $gray-dark
 	&__input,

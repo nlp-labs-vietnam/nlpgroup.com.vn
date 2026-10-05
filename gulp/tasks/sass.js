@@ -21,7 +21,8 @@ gulp.task('sass', function() {
         .src(config.src.sass + '/*.{sass,scss}')
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: config.production ? 'compressed' : 'expanded'
+            outputStyle: config.production ? 'compressed' : 'expanded',
+            silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'color-functions', 'slash-div']
         }).on('error', function(err) {
             console.error(err.toString());
             this.emit('end');

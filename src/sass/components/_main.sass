@@ -1,3 +1,5 @@
+@use 'sass:color'
+
 .main
 	&__container
 		position: relative
@@ -126,7 +128,7 @@
 			font-size: 9px
 			fill: $wh
 		&:hover
-			background: darken($blue, 10) 
+			background: color.adjust($blue, $lightness: -10%)
 	&__nav .slick-prev
 		left: -3px
 		padding-right: 1px
@@ -174,7 +176,7 @@
 				&:after
 					background: transparent
 				&:hover:before
-					background: darken($border, 10)  
+					background: color.adjust($border, $lightness: -10%)
 			&.slick-active button
 				&:before
 					background: $wh

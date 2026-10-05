@@ -1,3 +1,4 @@
+@use 'sass:math'
 .videos
 	display: flex
 	align-items: flex-start
@@ -107,7 +108,7 @@
 	&__name	
 		margin-bottom: 12px
 		font-size: 16px
-		line-height: (20/16)
+		line-height: math.div(20, 16)
 		font-weight: 600
 	.status
 		margin-bottom: 12px  

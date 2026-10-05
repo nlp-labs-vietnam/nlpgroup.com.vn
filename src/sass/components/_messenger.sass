@@ -1,3 +1,4 @@
+@use 'sass:math'
 .messenger
 	position: absolute
 	top: 0
@@ -133,7 +134,7 @@
 		padding: 12px 23px
 		border-radius: 20px 
 		background: rgba($border, .5)
-		line-height: (24/14) 
+		line-height: math.div(24, 14) 
 		color: $gray-dark 
 		cursor: pointer
 		-webkit-tap-highlight-color: rgba(0,0,0,0)

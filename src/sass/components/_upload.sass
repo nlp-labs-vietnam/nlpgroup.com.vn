@@ -1,3 +1,5 @@
+@use 'sass:color'
+
 .upload
 	&__row
 		display: flex
@@ -105,7 +107,7 @@
 	&__info
 		margin-bottom: 24px
 	&__wrap:not(.upload__wrap_image):hover &__btn
-		background: darken($blue, 7)
+		background: color.adjust($blue, $lightness: -7%)
 	&__head
 		display: flex
 		align-items: center

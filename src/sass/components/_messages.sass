@@ -1,3 +1,4 @@
+@use 'sass:math'
 .messages
 	&__list
 		+nl
@@ -78,7 +79,7 @@
 		padding: 16px 24px
 		border-radius: 20px 
 		background: rgba($border, .5) 
-		line-height: (24/14)
+		line-height: math.div(24, 14)
 		color: $gray-dark
 		cursor: pointer
 		transition: all .25s

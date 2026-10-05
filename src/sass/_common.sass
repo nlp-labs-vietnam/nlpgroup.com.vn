@@ -1,8 +1,10 @@
+@use 'sass:math'
+
 body
 	min-width: 375px
 	+fi
 	font-size: 14px
-	line-height: (20/14) 
+	line-height: math.div(20, 14)
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	color: $text 

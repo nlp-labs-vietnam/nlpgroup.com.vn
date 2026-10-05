@@ -1,3 +1,4 @@
+@use 'sass:math'
 .catalog
 	&__nav
 		display: flex
@@ -11,7 +12,7 @@
 		padding: 12px 24px 
 		+fp
 		font-size: 18px
-		line-height: (24/18)
+		line-height: math.div(24, 18)
 		font-weight: 500  
 		color: $text
 		transition: color .25s 

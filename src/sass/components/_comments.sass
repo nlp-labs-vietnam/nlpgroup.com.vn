@@ -1,3 +1,4 @@
+@use 'sass:math'
 .comments
 	&__row
 		display: flex
@@ -84,7 +85,7 @@
 		color: $gray-dark 
 	&__text
 		margin-bottom: 16px
-		line-height: (24/14)
+		line-height: math.div(24, 14)
 		color: $gray-dark
 	&__actions
 		display: flex

@@ -1,3 +1,5 @@
+@use 'sass:color'
+
 .card
 	position: relative
 	display: block
@@ -21,7 +23,7 @@
 			left: 0
 			right: 0
 	&:hover:before
-		background: darken($border-light, 15) 
+		background: color.adjust($border-light, $lightness: -15%)
 	&__preview
 		font-size: 0
 	&__preview &__pic

@@ -1,3 +1,4 @@
+@use 'sass:math'
 .game
 	position: relative
 	border-radius: 24px
@@ -66,7 +67,7 @@
 	&__title
 		margin-bottom: 18px
 		font-size: 18px
-		line-height: (24/18)
+		line-height: math.div(24, 18)
 		font-weight: 500
 		transition: color .25s  
 	&:hover &__title

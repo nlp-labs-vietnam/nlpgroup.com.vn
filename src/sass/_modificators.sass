@@ -1,3 +1,5 @@
+@use 'sass:math'
+
 .color
 	&-blue
 		color: $blue
@@ -81,7 +83,7 @@
 
 .title
 	font-size: 16px
-	line-height: (20/16)
+	line-height: math.div(20, 16)
 	font-weight: 600
 	&_lg,
 	&_md,
@@ -91,13 +93,13 @@
 		letter-spacing: -1px
 	&_lg
 		font-size: 96px
-		line-height: (120/96)
+		line-height: math.div(120, 96)
 	&_md
 		font-size: 72px
-		line-height: (88/72)
+		line-height: math.div(88, 72)
 	&_sm
 		font-size: 64px
-		line-height: (72/64)
+		line-height: math.div(72, 64)
 
 .h1,
 .h2,
@@ -120,45 +122,45 @@
 
 .h1
 	font-size: 56px
-	line-height: (64/56)
+	line-height: math.div(64, 56)
 	+x
 		font-size: 48px
-		line-height: (72/48)
+		line-height: math.div(72, 48)
 	+m
 		font-size: 40px
-		line-height: (60/40)
+		line-height: math.div(60, 40)
 
 .h2
 	font-size: 48px
-	line-height: (67/48) 
+	line-height: math.div(67, 48) 
 	+m
 		font-size: 32px
-		line-height: (48/32)
+		line-height: math.div(48, 32)
 		letter-spacing: -.5px
 
 .h3
 	font-size: 40px
-	line-height: (56/40)
+	line-height: math.div(56, 40)
 
 .h4
 	font-size: 32px
-	line-height: (48/32)
+	line-height: math.div(48, 32)
 	letter-spacing: -.5px 
 
 .h5
 	font-size: 24px
-	line-height: (32/24)  
+	line-height: math.div(32, 24)  
 
 .h6
 	font-size: 18px
-	line-height: (24/18)  
+	line-height: math.div(24, 18)  
 		
 .caption
 	font-size: 13px
 	font-weight: 500 
-	line-height: (18/13)
+	line-height: math.div(18, 13)
 
 .caption-sm
 	font-size: 12px
 	font-weight: 500 
-	line-height: (16/12)
+	line-height: math.div(16, 12)

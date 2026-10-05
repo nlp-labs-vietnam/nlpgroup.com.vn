@@ -1,3 +1,6 @@
+@use 'sass:math'
+@use 'sass:color'
+
 .btn
 	min-width: 166px
 	height: 56px
@@ -5,7 +8,7 @@
 	border-radius: 16px/16px
 	+fi
 	font-size: 14px
-	line-height: (20/14) 
+	line-height: math.div(20, 14)
 	font-weight: 700 
 	transition: all .25s 
 	.icon,
@@ -27,7 +30,7 @@
 		background: $purple
 		color: $wh
 		&:hover
-			background: darken($purple, 5)
+			background: color.adjust($purple, $lightness: -5%)
 	&_purple-light
 		background: rgba($purple-light, .5)
 		color: $link
@@ -39,17 +42,17 @@
 		background: $blue
 		color: $wh
 		&:hover
-			background: darken($blue, 7)
+			background: color.adjust($blue, $lightness: -7%)
 	&_orange
 		background: $orange
 		color: $wh
 		&:hover
-			background: darken($orange, 7)
+			background: color.adjust($orange, $lightness: -7%)
 	&_blue-dark
 		background: $blue-dark
 		color: $wh
 		&:hover
-			background: lighten($blue-dark, 7)
+			background: color.adjust($blue-dark, $lightness: 7%)
 	&_black
 		background: $bl
 		color: $wh
@@ -68,7 +71,7 @@
 		background: $border-light
 		color: $text
 		&:hover
-			background: darken($border-light, 5)
+			background: color.adjust($border-light, $lightness: -5%)
 	&_wide
 		min-width: 100% 
 	&_square

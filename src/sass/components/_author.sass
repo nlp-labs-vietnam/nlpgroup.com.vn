@@ -1,3 +1,4 @@
+@use 'sass:math'
 .author
 	&__container
 		display: flex
@@ -138,7 +139,7 @@
 			margin: 24px 0 0 
 	&__note
 		max-width: 330px
-		line-height: (24/14)
+		line-height: math.div(24, 14)
 		color: $gray-dark
 		+m
 			max-width: 100%
