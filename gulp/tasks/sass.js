@@ -21,9 +21,11 @@ gulp.task('sass', function() {
         .src(config.src.sass + '/*.{sass,scss}')
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: config.production ? 'compressed' : 'expanded',
-            precision: 5
-        }).on('error', sass.logError))
+            outputStyle: config.production ? 'compressed' : 'expanded'
+        }).on('error', function(err) {
+            console.error(err.toString());
+            this.emit('end');
+        }))
         .pipe(postcss(processors))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(config.dest.css));

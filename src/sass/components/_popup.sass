@@ -179,25 +179,25 @@
 	background: rgba($bl, .9)
 
 .mfp-zoom-in 
-  .popup
-    opacity: 0
-    transition: all 0.2s ease-in-out
-    transform: scale(0.8) 
-  &.mfp-bg 
-    opacity: 0
-    transition: all 0.2s ease-out
-  &.mfp-ready
-    .popup
-      opacity: 1
-      transform: scale(1) 
-    &.mfp-bg 
-      opacity: 0.8
-  &.mfp-removing 
-    .popup 
-      transform: scale(0.8) 
-      opacity: 0
-    &.mfp-bg
-      opacity: 0
+	.popup
+		opacity: 0
+		transition: all 0.2s ease-in-out
+		transform: scale(0.8) 
+	&.mfp-bg 
+		opacity: 0
+		transition: all 0.2s ease-out
+	&.mfp-ready
+		.popup
+			opacity: 1
+			transform: scale(1) 
+		&.mfp-bg 
+			opacity: 0.8
+	&.mfp-removing 
+		.popup 
+			transform: scale(0.8) 
+			opacity: 0
+		&.mfp-bg
+			opacity: 0
 
 +dark
 	.popup
