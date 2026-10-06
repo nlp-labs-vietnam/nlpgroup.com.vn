@@ -4,5 +4,88 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [120],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.git": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/build": true
+    },
+    "emmet.includeLanguages": {
+      "pug": "html"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "task.allowAutomaticTasks": "on"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "🚀 Dev Server (Watch + BrowserSync)",
+        "type": "shell",
+        "command": "npm start",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "dedicated",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "isBackground": true,
+        "problemMatcher": {
+          "owner": "gulp",
+          "pattern": {
+            "regexp": "^\\[.*\\]\\s+(.*Error.*)$",
+            "message": 1
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "Starting",
+            "endsPattern": "Finished|Browsersync|Local:"
+          }
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      },
+      {
+        "label": "🏗️ Build Production",
+        "type": "shell",
+        "command": "npm run build",
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "dedicated",
+          "clear": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": []
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "stylelint.vscode-stylelint"
+    ]
+  }
 }

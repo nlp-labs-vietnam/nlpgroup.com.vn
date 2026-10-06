@@ -1,0 +1,66 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Dev Server (Watch + BrowserSync)",
+      "type": "shell",
+      "command": "npm start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "gulp",
+        "pattern": {
+          "regexp": "^\\[.*\\]\\s+(.*Error.*)$",
+          "message": 1
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting",
+          "endsPattern": "Finished|Browsersync|Local:"
+        }
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "🏗️ Build Production",
+      "type": "shell",
+      "command": "npm run build",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "🔍 Lint JS",
+      "type": "shell",
+      "command": "npm run lint",
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "clear": true
+      },
+      "problemMatcher": ["$eslint-stylish"]
+    }
+  ]
+}

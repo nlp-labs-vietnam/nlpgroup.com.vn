@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": false,
+  "editor.rulers": [120],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/build": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "emmet.includeLanguages": {
+    "pug": "html"
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "eslint.enable": true,
+  "eslint.options": {
+    "ignorePath": ".eslintignore"
+  },
+  "task.allowAutomaticTasks": "on"
+}
