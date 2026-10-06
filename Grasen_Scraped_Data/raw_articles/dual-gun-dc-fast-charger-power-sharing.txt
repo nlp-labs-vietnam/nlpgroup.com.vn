@@ -77,4 +77,4 @@ Power sharing in dual-gun DC chargers significantly affects real-world charging 
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/15/文章配图1)_20260915152149A115.jpg
 Thumbnail Local Path: images/dual-gun-dc-fast-charger-power-sharing/cover.jpg
-Content Images: (none extracted — JS-rendered page)
+Content Images: (article uses no embedded images — text only)

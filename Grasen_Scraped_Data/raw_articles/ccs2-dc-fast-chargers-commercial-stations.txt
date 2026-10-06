@@ -108,4 +108,4 @@ CCS2 is the dominant DC fast charging connector for international commercial dep
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/12/文章配图3_20260912085619A114.png
 Thumbnail Local Path: images/ccs2-dc-fast-chargers-commercial-stations/cover.png
-Content Images: (none extracted — JS-rendered page)
+Content Images: (article uses no embedded images — text only)

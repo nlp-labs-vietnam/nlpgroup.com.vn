@@ -78,4 +78,5 @@ Matching the charger to the site type, dwell time, and business model is critica
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/24/T480000_20260924162451A126.png
 Thumbnail Local Path: images/business-electric-car-charger-guide/cover.png
-Content Images: (none extracted — JS-rendered page)
+Content Images:
+  [base64] → Local: images/business-electric-car-charger-guide/content_img_01.png (28,988 bytes)

@@ -76,4 +76,4 @@ EV charging management software is no longer optional for operators running more
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/30/EV Charging Management Software_20260930103919A129.png
 Thumbnail Local Path: images/ev-charging-management-software/cover.png
-Content Images: (none extracted — JS-rendered page)
+Content Images: (article uses no embedded images — text only)

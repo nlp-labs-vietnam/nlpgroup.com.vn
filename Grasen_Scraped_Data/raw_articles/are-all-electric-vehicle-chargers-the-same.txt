@@ -72,4 +72,5 @@ All EV chargers are not the same. Choosing the right charger depends on the site
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/28/All Electric Vehicle Chargers the Same？1_20260928140207A128.jpg
 Thumbnail Local Path: images/are-all-electric-vehicle-chargers-the-same/cover.jpg
-Content Images: (none extracted — JS-rendered page)
+Content Images:
+  [base64] → Local: images/are-all-electric-vehicle-chargers-the-same/content_img_01.png (27,222 bytes)

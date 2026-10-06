@@ -80,4 +80,5 @@ The DC fast charger market in China has matured significantly, with multiple man
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/22/Top 10 DC Fast Charger Manufacturer_20260922140219A121.png
 Thumbnail Local Path: images/top-10-dc-fast-charger-manufacturers-china/cover.png
-Content Images: (none extracted — JS-rendered page)
+Content Images:
+  [base64] → Local: images/top-10-dc-fast-charger-manufacturers-china/content_img_01.png (76,368 bytes)

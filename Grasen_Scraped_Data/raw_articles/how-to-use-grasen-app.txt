@@ -105,4 +105,13 @@ In-app chat and a help center with FAQs are accessible under "Menu → Help & Su
 
 Thumbnail URL: https://upload.grasen.com/upload/2026/09/18/Explore Grasen EV Charging Solutions_20260918114725A119.png
 Thumbnail Local Path: images/how-to-use-grasen-app/cover.png
-Content Images: (none extracted — JS-rendered page)
+Content Images:
+  [base64] → Local: images/how-to-use-grasen-app/content_img_01.png (630,719 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_02.png (1,034,878 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_03.png (631,813 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_04.png (636,239 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_05.png (184,905 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_06.png (637,387 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_07.png (1,050,421 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_08.png (635,170 bytes)
+  [base64] → Local: images/how-to-use-grasen-app/content_img_09.png (981,576 bytes)
