@@ -1,0 +1,108 @@
+Title: How to Use the Grasen App for EV Charging and Payment
+URL: https://www.grasen.com/news/how-to-use-grasen-app
+Published Date: 2026-09-18
+Category: News
+Author/Source: GRASEN
+Tags: Grasen App, EV charging app, mobile payment, find charger, charging session management
+
+Excerpt:
+Learn how to use the Grasen App to find nearby chargers, check charging status and prices, start a session, make payments and review your charging records.
+
+Full Content:
+How to Use the Grasen App for EV Charging and Payment
+
+The Grasen App is the mobile companion for Grasen-networked EV charging stations. It allows EV drivers to find nearby chargers, check real-time availability, initiate and monitor charging sessions, and manage payments — all from a smartphone.
+
+Downloading and Setting Up the App
+
+The Grasen App is available on:
+- Apple App Store (iOS 13 and later)
+- Google Play Store (Android 8.0 and later)
+
+After downloading:
+1. Open the app and tap "Register"
+2. Enter your email address and create a password
+3. Verify your email via the confirmation link
+4. Add a payment method (credit/debit card or supported mobile payment)
+5. Optionally link your EV for personalized charging recommendations
+
+Finding Nearby Charging Stations
+
+The app's map view shows all Grasen-networked stations in your area:
+- Filter by charger type (AC/DC), power level, and connector type
+- View real-time availability: green = available, red = occupied, grey = offline
+- Tap a station for details: address, operating hours, pricing, connector types
+- Navigate directly to the station via integrated map directions
+
+Starting a Charging Session
+
+Method 1 — QR Code Scan:
+1. Arrive at the charging station
+2. Open the app and tap "Scan QR Code"
+3. Point the camera at the QR code on the charger
+4. Select the connector and confirm pricing
+5. Plug in your vehicle and tap "Start Charging"
+
+Method 2 — RFID Card:
+Register your RFID card in the app under "My Account → Cards". Tap the card on the reader to start a session. The session is linked to your app account for billing.
+
+Method 3 — Remote Start (if pre-authorized):
+For fleet operators with pre-authorized vehicles, sessions can be initiated remotely via the app or operator dashboard.
+
+Monitoring Your Charging Session
+
+During an active session, the app shows:
+- Current charging power (kW)
+- Energy delivered (kWh)
+- Time elapsed and estimated completion
+- Current cost
+- Battery level (for compatible vehicles via OCPP)
+
+You'll receive push notifications when:
+- The session starts (confirming connection)
+- Charging completes
+- The idle/overtime timer begins
+
+Stopping a Charging Session
+
+1. Open the app and go to "Active Session"
+2. Tap "Stop Charging"
+3. Unplug the cable after the session ends
+4. Payment is processed automatically
+
+Payment and Invoices
+
+- Payments are deducted automatically from your registered payment method
+- Session receipts are available in "Charging History → View Invoice"
+- Monthly statements are available for fleet accounts
+- Prepaid wallet balance can be topped up in the app
+
+Reviewing Your Charging Records
+
+The "Charging History" section shows:
+- Date, time, and location of each session
+- Energy consumed (kWh), duration, and cost
+- Charger details and session ID (for dispute resolution)
+- Export to CSV for expense reporting
+
+Fleet and Business Features
+
+Fleet managers can access the web portal for:
+- Multi-driver account management
+- Bulk RFID card management
+- Cost center allocation and monthly billing reports
+- API integration with fleet management software
+
+Troubleshooting
+
+- Charger shows as offline: Check the app for alternative nearby stations; contact support if persistent
+- Payment failed: Verify card details under "My Account → Payment Methods"
+- Session won't start: Ensure the cable is fully connected; try restarting the app
+
+Support
+
+In-app chat and a help center with FAQs are accessible under "Menu → Help & Support". Email and WhatsApp support are also available via the Grasen website.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/18/Explore Grasen EV Charging Solutions_20260918114725A119.png
+Thumbnail Local Path: images/how-to-use-grasen-app/cover.png
+Content Images: (none extracted — JS-rendered page)

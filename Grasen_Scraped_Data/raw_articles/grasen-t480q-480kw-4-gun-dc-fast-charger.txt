@@ -1,0 +1,83 @@
+Title: Grasen T480Q 480kW 4-Gun DC EV Fast Charger for High-Traffic Charging Sites
+URL: https://www.grasen.com/news/grasen-t480q-480kw-4-gun-dc-ev-fast-charger
+Published Date: 2026-09-16
+Category: News
+Author/Source: GRASEN
+Tags: T480Q, 480kW, 4-gun DC charger, high-traffic charging, multi-connector DC charger, Grasen product
+
+Excerpt:
+Discover the new Grasen T480Q 480kW 4-gun DC fast charger, designed for high-traffic commercial charging sites with flexible connector configurations.
+
+Full Content:
+Grasen T480Q 480kW 4-Gun DC EV Fast Charger for High-Traffic Charging Sites
+
+Grasen has launched the T480Q, a new 480kW 4-gun DC fast charger designed for high-throughput commercial charging environments such as highway service areas, large fleet depots, and public fast charging hubs.
+
+Product Overview: T480Q
+
+The T480Q expands Grasen's Thunder series with a four-connector configuration in a single unit, enabling simultaneous charging of up to four vehicles from a single power cabinet.
+
+Key Specifications:
+- Maximum output power: 480 kW
+- Number of connectors: 4 guns (dual-side, 2 per side)
+- Per-gun output: Up to 240 kW (dynamic power sharing between connected vehicles)
+- Output voltage range: 150V–1,000V DC
+- Supported protocols: OCPP 1.6J
+- Display: 21.5-inch LCD touchscreen
+- Authentication: RFID, QR code, mobile app, Plug & Charge
+- Connector options: CCS2, CHAdeMO, GB/T, NACS (configurable per market)
+- IP rating: IP54
+- Operating temperature: -30°C to +55°C
+- Warranty: 26 months
+
+Dynamic Power Sharing
+
+The T480Q uses dynamic power distribution — total available power (up to 480kW) is allocated across active charging sessions based on each vehicle's demand:
+- If one vehicle is charging at full 240kW demand, remaining 240kW is available for other guns
+- As additional vehicles connect, power is redistributed proportionally
+- When a vehicle's battery reaches near-full and charging rate drops, freed capacity is reallocated to other active sessions
+
+This ensures maximum hardware utilization and minimizes per-session wait time at high-traffic sites.
+
+Design for High-Traffic Commercial Sites
+
+The T480Q addresses specific challenges at busy charging locations:
+- High throughput: Up to 4 simultaneous sessions vs 1–2 guns on typical DC chargers
+- Reduced footprint: 4 guns from a single cabinet vs 4 separate standalone units
+- Flexible connector mix: Different connector types on different guns to serve mixed fleets
+- Serviceability: Modular power modules can be swapped without full unit replacement
+
+Site Applications:
+- Highway service areas: Serve multiple vehicles during short stops (20–40 min sessions)
+- Fleet depot rapid charging: Shift-change fast charging for commercial vehicle fleets
+- Destination charging (airports, stadiums): High volume with shorter sessions
+- Public fast charging hubs: Urban EV charging corridors
+
+Connectivity and Software
+
+The T480Q integrates with Grasen's CSMS (Charging Station Management System) via OCPP 1.6J:
+- Remote monitoring and fault diagnostics
+- Per-gun session management and billing
+- Dynamic pricing configuration
+- Firmware update over the air
+- Multi-tenant operator support
+
+Physical Dimensions and Installation
+
+- Footprint: Compact single-cabinet design
+- Cable management: Integrated overhead cable routing system
+- Power input: Three-phase AC, 480V or 400V depending on market variant
+- Installation: Requires dedicated transformer for full 480kW output at single location
+- Mounting: Floor-mounted, weather-resistant outdoor enclosure
+
+Availability and Markets
+
+The T480Q is available for international B2B orders. Connector configuration (CCS1 for North America, CCS2 for Europe/Asia, GB/T for China, NACS for select markets) is specified at order. Lead time is 6–12 weeks depending on volume and destination.
+
+Conclusion
+
+The Grasen T480Q 480kW 4-gun DC fast charger addresses the growing need for high-throughput charging at busy commercial sites. By combining four charging connections in a single power cabinet with dynamic power distribution, it offers site operators higher vehicle throughput, lower footprint, and reduced installation cost compared to multiple standalone units.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/23/480kW 4-Gun DC EV Fast Charger picture_20260923102825A123.png
+Thumbnail Local Path: images/grasen-t480q-480kw-4-gun-dc-fast-charger/cover.png
+Content Images: (none extracted — JS-rendered page)

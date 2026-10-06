@@ -1,0 +1,80 @@
+Title: Dual-Gun DC Fast Charger: How Does Power Sharing Work?
+URL: https://www.grasen.com/news/dual-gun-dc-fast-charger-power-sharing
+Published Date: 2026-09-15
+Category: News
+Author/Source: GRASEN
+Tags: dual-gun DC charger, power sharing, dynamic power distribution, EV charging, multi-gun charger
+
+Excerpt:
+How does a dual-gun DC fast charger divide power when two EVs charge at the same time? This guide explains equal and dynamic power sharing, vehicle demand, and what buyers should check before choosing a dual-connector charger.
+
+Full Content:
+Dual-Gun DC Fast Charger: How Does Power Sharing Work?
+
+Many commercial DC fast chargers now come with two charging connectors — commonly called a dual-gun or two-gun configuration. When only one vehicle is connected, it may have access to the unit's full output power. But when two vehicles charge simultaneously, that power must be shared. This guide explains how power sharing works, what factors affect it, and what buyers should look for.
+
+Fixed vs Dynamic Power Sharing
+
+There are two main approaches to power sharing in dual-gun DC chargers:
+
+1. Fixed (Equal) Power Sharing
+Each connector receives exactly half the total charger capacity, regardless of vehicle demand.
+- Example: A 120kW dual-gun charger gives each connector a fixed 60kW
+- Simple to understand, but inefficient — if one vehicle only needs 40kW, the unused 20kW is wasted
+- Common in lower-cost or older charger designs
+
+2. Dynamic Power Sharing
+Power is allocated based on actual vehicle demand, up to the total charger capacity.
+- Example: A 120kW dual-gun charger with dynamic sharing — if Vehicle A requests 100kW and Vehicle B requests 40kW, the system may deliver 90kW to A and 30kW to B (capped by total 120kW)
+- Maximizes hardware utilization and minimizes per-session time
+- Grasen's T series and S series chargers use dynamic power distribution
+
+How Vehicle Demand Affects Power Sharing
+
+EVs control their own charging rate via the charging protocol (CCS, CHAdeMO, GB/T). The charger responds to the vehicle's demand request, not the other way around. Key factors:
+
+Battery State of Charge (SOC):
+- At low SOC: Vehicle requests maximum power (fast filling phase)
+- At ~80% SOC: Charging rate tapers significantly to protect the battery (CV phase)
+- As one vehicle tapers, the freed capacity can be redirected to the second vehicle
+
+Vehicle Maximum Acceptance Rate:
+- Each vehicle has a hardware-defined maximum charging rate
+- A vehicle rated for 50kW max cannot accept 100kW even if available
+- Dynamic allocation means excess capacity shifts to the other connector
+
+Simultaneous vs Sequential Charging:
+- Some budget chargers only charge one vehicle at a time (sequential)
+- True simultaneous dual-gun charging requires independent power modules per connector, or a shared power pool with active allocation management
+- Buyers should confirm: is it truly simultaneous or sequential switching?
+
+Practical Performance Example
+
+Scenario: 240kW dual-gun DC charger with dynamic power sharing
+- Vehicle A (80kW max acceptance) connects first → receives 80kW
+- Vehicle B (150kW max acceptance) connects 10 min later → system allocates 150kW to B, A still at 80kW (total: 230kW, within 240kW limit)
+- Vehicle A reaches 80% SOC and tapers to 20kW → B automatically receives up to 220kW if its battery can accept it
+
+What to Check When Buying a Dual-Gun DC Charger
+
+1. Is power sharing dynamic or fixed? Dynamic sharing is more efficient.
+2. Is dual-gun operation truly simultaneous? Confirm independent module architecture.
+3. What is the per-gun maximum output? Some units cap each gun below total/2.
+4. What connector types are available? CCS2+CHAdeMO, CCS2+NACS, etc.
+5. Does the CSMS report per-gun session data? Important for billing accuracy.
+
+Grasen Dual-Gun Models
+
+Grasen offers several dual-gun configurations:
+- T 240 (120kW per gun, 240kW total): Dynamic power distribution
+- T 480 (240kW per gun, 480kW total): Dynamic power distribution
+- R 240: Dual CCS/CHAdeMO/GB/T connectors
+All Grasen dual-gun models support simultaneous charging with dynamic power allocation.
+
+Conclusion
+
+Power sharing in dual-gun DC chargers significantly affects real-world charging performance. Dynamic sharing maximizes utilization and is standard on quality commercial hardware. When selecting a dual-gun charger, verify that it supports truly simultaneous operation with dynamic power allocation — not just physical dual connectors with fixed or sequential delivery.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/15/文章配图1)_20260915152149A115.jpg
+Thumbnail Local Path: images/dual-gun-dc-fast-charger-power-sharing/cover.jpg
+Content Images: (none extracted — JS-rendered page)

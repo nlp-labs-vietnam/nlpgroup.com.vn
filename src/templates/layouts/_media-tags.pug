@@ -1,18 +1,31 @@
 //- Description no longer than 155 characters
-meta(name="description" content="Unity Dashboard Kit - Gaming") 
-//- Twitter Card data
-meta(name="twitter:card" content="summary")
-meta(name="twitter:site" content="@ui8")
-meta(name="twitter:title" content="Unity Dashboard Kit - Gaming") 
-meta(name="twitter:description" content="Ultimate Social Gaming Dashboard Kit")
-meta(name="twitter:creator" content="@ui8")
-//- Twitter Summary card images must be at least 120x120px
-meta(name="twitter:image" content="https://ui8-unity-gaming.herokuapp.com/img/twitter-card.jpg")
-//- Open Graph data
-meta(property="og:title" content="Unity")
-meta(property="og:type" content="Article")
-meta(property="og:url" content="https://ui8-unity-gaming.herokuapp.com/")   
-meta(property="og:image" content="https://ui8-unity-gaming.herokuapp.com/img/fb-og-image.jpg")
-meta(property="og:description" content="Ultimate Social Gaming Dashboard Kit") 
-meta(property="og:site_name" content="Unity Dashboard Kit - Gaming")  
-meta(property="fb:admins" content="132951670226590")
+meta(name="description" content=description || "CD Restop — Kiến tạo Hạ tầng An Sinh. Mạng lưới điểm dừng chân an sinh tích hợp sạc EV, F&B và tiện ích cộng đồng trên 34 tỉnh, thành Việt Nam.")
+meta(name="author" content=author || "CD Restop Corporation")
+meta(name="robots" content="index, follow")
+meta(name="theme-color" content="#6c5dd3")
+
+//- Canonical URL
+- var baseUrl = "https://nlp-labs-vietnam.github.io/nlpgroup.com.vn"
+- var pageUrl = baseUrl + "/" + (slug || "")
+link(rel="canonical" href=canonicalUrl || pageUrl)
+
+//- Twitter Card
+meta(name="twitter:card" content="summary_large_image")
+meta(name="twitter:site" content="@cdrestop")
+meta(name="twitter:title" content=(title || "CD Restop") + " — CD Restop Corporation")
+meta(name="twitter:description" content=description || "Kiến tạo Hạ tầng An Sinh — Chuyển đổi số gặp chuyển đổi xanh.")
+meta(name="twitter:creator" content="@cdrestop")
+meta(name="twitter:image" content=ogImage || baseUrl + "/img/main-pic-1.png")
+
+//- Open Graph
+meta(property="og:title" content=(title || "CD Restop") + " — CD Restop Corporation")
+meta(property="og:type" content=ogType || "website")
+meta(property="og:url" content=canonicalUrl || pageUrl)
+meta(property="og:image" content=ogImage || baseUrl + "/img/main-pic-1.png")
+meta(property="og:image:width" content="1200")
+meta(property="og:image:height" content="630")
+meta(property="og:description" content=description || "Kiến tạo Hạ tầng An Sinh — Chuyển đổi số gặp chuyển đổi xanh.")
+meta(property="og:site_name" content="CD Restop Corporation")
+meta(property="og:locale" content="vi_VN")
+meta(property="article:author" content=author || "CD Restop Corporation")
+meta(property="article:publisher" content="https://www.facebook.com/scscorpo")

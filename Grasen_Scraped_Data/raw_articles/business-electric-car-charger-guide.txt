@@ -1,0 +1,81 @@
+Title: Business Electric Car Charger Guide: Choosing the Right Solution for Your Site
+URL: https://www.grasen.com/news/business-electric-car-charger-guide
+Published Date: 2026-09-23
+Category: News
+Author/Source: GRASEN
+Tags: business EV charger, commercial EV charging, workplace charging, fleet charging, hotel EV charger, retail EV charging
+
+Excerpt:
+Learn how to choose the right EV charger for workplaces, hotels, fleets, retail sites and public charging projects.
+
+Full Content:
+Business Electric Car Charger Guide: Choosing the Right Solution for Your Site
+
+Selecting the right EV charger for a business site involves more than picking a power rating. Site type, visitor dwell time, grid capacity, user management needs, and revenue model all play a role in determining the optimal solution.
+
+Site Types and Charger Requirements
+
+1. Workplace Charging
+Employees typically park for 6–10 hours, making AC Level 2 (7–22 kW) the standard solution. Key requirements:
+- Cost allocation per employee (RFID or app-based)
+- Dynamic load management to limit peak demand charges
+- Integration with payroll or expense systems for billing
+- Grasen recommendation: Smart AC Charger (7/22 kW) or Genie AC Charger
+
+2. Hotels and Hospitality
+Guests park overnight — AC charging is usually sufficient. For high-end properties or highway stops, DC fast charging provides a premium amenity:
+- Managed billing via app or reception
+- Brand-customizable interface
+- Grasen recommendation: Pedestal EV Charger (7–22 kW) for standard, T 60/T 120C for premium
+
+3. Fleet and Depot Charging
+Fleet operators need high-throughput overnight charging or fast turnaround for delivery/transit vehicles:
+- High-power DC for fast turnaround or AC depot charging for overnight fleets
+- Shift-based scheduling via CSMS
+- RFID driver authentication with vehicle ID logging
+- Grasen recommendation: T 240, T 420, T 480 for fast-turnaround fleets; Smart AC banks for overnight depot
+
+4. Retail and Commercial Properties
+Retail sites benefit from EV charging as a footfall driver. Dwell times are 1–3 hours — AC Level 2 is typically sufficient, but DC fast charging attracts highway-adjacent traffic:
+- QR code or contactless payment for non-members
+- Advertising screen monetization at high-traffic sites
+- Grasen recommendation: S 240 with 55-inch advertising screen, or Smart AC Charger array
+
+5. Public Charging Stations (CPO Business)
+CPOs require reliable, high-uptime hardware with full CSMS integration:
+- OCPP compliance for multi-vendor management
+- Multiple connector types (CCS, CHAdeMO, NACS)
+- High durability for 24/7 outdoor use
+- IP55 or higher weatherproofing
+- Grasen recommendation: T 420 or T 480 for high-traffic highways; R 240 for medium-traffic public locations
+
+Key Technical Considerations
+
+Power and Grid Capacity:
+Assess available grid capacity before selecting charger power. AC Level 2 arrays with DLM can distribute up to the circuit limit across multiple points. High-power DC requires dedicated transformer upgrades for large deployments.
+
+Weatherproofing:
+Outdoor chargers should be IP54 or IP55 rated. Internal components, cooling systems, and cable management need to withstand -30°C to +55°C operating ranges.
+
+Connector Configuration:
+Choose connectors based on target vehicle types. In most global markets, CCS2 is now dominant. NACS is growing rapidly in North America. CHAdeMO is declining but still relevant for older Nissan/Mitsubishi fleets.
+
+Warranty and Support:
+Grasen provides 26-month hardware warranty on all EV charger products and offers global technical support.
+
+Permitting and Installation:
+Work with certified electricians and obtain required permits. Network connection (4G/Ethernet) is needed for CSMS integration. Dedicated circuit breakers and RCD protection are required per local electrical codes.
+
+Budget and ROI
+
+- AC Level 2 chargers: Lower upfront cost, lower power, suitable for long-dwell sites
+- DC fast chargers: Higher upfront cost, high throughput, revenue generation through per-kWh charging fees
+- Advertising screen models (S 240): Additional revenue through on-screen ad placements
+
+Conclusion
+
+Matching the charger to the site type, dwell time, and business model is critical for a successful EV charging deployment. Grasen offers a full range from 7 kW AC to 1,500 kW DC solutions to fit any commercial application, backed by OCPP-compliant CSMS and global support.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/24/T480000_20260924162451A126.png
+Thumbnail Local Path: images/business-electric-car-charger-guide/cover.png
+Content Images: (none extracted — JS-rendered page)

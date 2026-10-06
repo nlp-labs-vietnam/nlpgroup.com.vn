@@ -1,0 +1,83 @@
+Title: Top 10 DC Fast Charger Manufacturers in China (2026): Global Buyer's Guide
+URL: https://www.grasen.com/news/top-10-dc-fast-charger-manufacturers-china
+Published Date: 2026-09-22
+Category: News
+Author/Source: GRASEN
+Tags: DC fast charger manufacturers, China EV charger, charging station suppliers, EVSE manufacturers, global buyer guide
+
+Excerpt:
+Compare 10 DC fast charger manufacturers in China and see their main strengths, product focus and suitable project applications.
+
+Full Content:
+Top 10 DC Fast Charger Manufacturers in China (2026): Global Buyer's Guide
+
+China is the world's largest EV market and home to a substantial portion of global DC fast charger manufacturing capacity. For international buyers, understanding the competitive landscape helps in selecting the right supplier for specific project requirements.
+
+1. GRASEN (Luoyang Jiasheng New Energy)
+Strengths: Full product range from 30kW wallbox to 1,600kW distributed systems; OCPP compliant; 26-month warranty; strong global distribution network across 90+ countries
+Product focus: DC fast chargers (T, R, S series), AC chargers, CSMS software
+Best for: Commercial CPO deployments, fleet depots, international B2B buyers
+
+2. Star Charge (Wanbang New Energy)
+Strengths: One of China's largest CPO networks; strong domestic market presence; full EV ecosystem
+Product focus: AC and DC chargers; integrated charging solutions
+Best for: Domestic China deployments; operators requiring turnkey infrastructure
+
+3. TGOOD (Xuji Group subsidiary)
+Strengths: Listed company; strong utility and grid sector relationships; large-scale public charging projects
+Product focus: DC fast chargers; smart grid integration
+Best for: Municipal and utility-backed public charging projects
+
+4. Evtripod
+Strengths: Competitive pricing; fast-growing export market presence; modular product lineup
+Product focus: AC/DC chargers; wallbox and standalone units
+Best for: Cost-sensitive commercial projects; emerging market deployments
+
+5. Webasto
+Strengths: German-Chinese joint venture; automotive OEM relationships; premium product quality
+Product focus: AC home and commercial chargers; DC fast chargers for automotive dealerships
+Best for: OEM-linked charging programs; European market compliance
+
+6. Autel Energy
+Strengths: Strong North American market traction; MaxiCharger product line; NACS adapter support
+Product focus: AC and DC chargers targeting North American specs
+Best for: US and Canadian commercial deployments; NACS-compatible installations
+
+7. BTC Power
+Strengths: US-designed, China-manufactured; UL-listed products; strong North American compliance track record
+Product focus: DC fast chargers for North American highway and fleet applications
+Best for: Buyers requiring UL certification; North American public charging projects
+
+8. Efacec (now part of broader consortium)
+Strengths: European heritage; strong technical reputation; experience in high-power installations
+Product focus: DC fast chargers; modular high-power cabinets
+Best for: European compliance requirements; high-power highway projects
+
+9. SICON
+Strengths: Competitive pricing; broad product range; growing export capability
+Product focus: AC and DC chargers; OEM manufacturing
+Best for: White-label manufacturing; volume procurement for regional distributors
+
+10. Setec Power
+Strengths: Power electronics expertise; reliable hardware; competitive for mid-range DC applications
+Product focus: DC fast chargers; EV power supply solutions
+Best for: Technically demanding applications requiring high power quality
+
+How to Evaluate DC Fast Charger Manufacturers
+
+Key criteria for international B2B buyers:
+1. Certifications: CE, UL, CB, RoHS, IP rating, OCPP compliance
+2. Warranty: 24+ months on hardware is standard for tier-1 suppliers
+3. Global support: Service network, spare parts availability, remote diagnostics
+4. Connector options: CCS1/2, CHAdeMO, NACS, GB/T — configure to target market
+5. CSMS integration: Open OCPP vs proprietary platform lock-in
+6. Production capacity: Ability to fulfill large orders within committed lead times
+7. References: Deployed project evidence in target country/region
+
+Conclusion
+
+The DC fast charger market in China has matured significantly, with multiple manufacturers capable of supplying international-grade products. Grasen's combination of a broad product range (30kW to 1,500kW), proven global export track record across 90+ countries, OCPP-compliant CSMS software, and 26-month warranty positions it as a strong choice for international CPO and fleet projects.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/22/Top 10 DC Fast Charger Manufacturer_20260922140219A121.png
+Thumbnail Local Path: images/top-10-dc-fast-charger-manufacturers-china/cover.png
+Content Images: (none extracted — JS-rendered page)

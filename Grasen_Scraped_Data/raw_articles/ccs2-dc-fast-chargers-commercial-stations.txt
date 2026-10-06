@@ -1,0 +1,111 @@
+Title: CCS2 DC Fast Chargers for Commercial Charging Stations: What Buyers Should Know
+URL: https://www.grasen.com/news/ccs2-dc-fast-chargers-commercial-stations
+Published Date: 2026-09-10
+Category: News
+Author/Source: GRASEN
+Tags: CCS2, DC fast charger, commercial charging stations, Combined Charging System, EV infrastructure, CPO
+
+Excerpt:
+A guide to selecting CCS2 DC fast chargers for commercial charging stations, fleets and EV infrastructure projects.
+
+Full Content:
+CCS2 DC Fast Chargers for Commercial Charging Stations: What Buyers Should Know
+
+The Combined Charging System 2 (CCS2) connector has become the dominant DC fast charging standard across Europe, Asia-Pacific, and a growing number of emerging markets. For buyers specifying commercial charging stations, understanding CCS2 compatibility, hardware requirements, and procurement considerations is essential.
+
+What Is CCS2?
+
+CCS2 (Combined Charging System Type 2) combines the Type 2 AC plug with two additional DC power pins into a single "combo" connector. It supports:
+- AC charging: up to 43 kW (3-phase Type 2)
+- DC fast charging: 20kW to 350kW+ (with higher power planned under CCS2 roadmap)
+
+CCS2 is the IEC 62196-3 standard and is mandated or preferred in:
+- European Union (AFIR regulation requires CCS2 at public fast chargers)
+- Australia and New Zealand
+- Most Southeast Asian markets (Thailand, Vietnam, Indonesia)
+- South Korea (alongside CHAdeMO legacy)
+- India (BIS standard aligned with CCS2)
+- South Africa and growing African markets
+
+Key Technical Requirements for CCS2 DC Fast Chargers
+
+1. Output Voltage Range
+CCS2 DC charging supports 150V–1,000V output, covering all current EVs. Future 800V-platform vehicles (Porsche Taycan, Hyundai Ioniq 6, Audi e-tron GT) require 800V+ output capability. Buyers should confirm the charger's voltage range covers their target vehicle fleet.
+
+2. Output Current
+- 50kW at 500V = 100A
+- 150kW at 750V = 200A
+- 350kW at 920V = 380A
+Cables and connectors must be rated for the maximum current, including thermal management for liquid-cooled cables at high power.
+
+3. Cable Length and Type
+Standard CCS2 cables are 5–8 meters. For high-power units (150kW+), liquid-cooled cables are used to manage heat and maintain cable flexibility. Cable weight and ergonomics matter for usability at public stations.
+
+4. OCPP Compliance
+Mandatory for commercial deployments requiring CSMS integration:
+- OCPP 1.6J: Current widely-deployed standard
+- OCPP 2.0.1: Enhanced security and smart charging; increasingly required in European tenders
+
+5. IP Rating
+Outdoor commercial chargers require minimum IP54. Highway locations and harsh climates may require IP55 or higher.
+
+6. EMC and Safety Certification
+- CE marking required for EU deployment
+- IEC 61851-23 compliance for DC EV supply equipment
+- IEC 62196-3 for connector/inlet
+- ISO 15118 for Plug & Charge capability (increasingly specified in European tenders)
+
+Common Commercial Use Cases for CCS2 DC Fast Chargers
+
+Highway Fast Charging (HPC):
+- 150kW–350kW per gun
+- Liquid-cooled cables
+- High uptime requirement (95%+)
+- 24/7 operation with remote monitoring
+
+Urban Public Charging:
+- 50kW–150kW per gun
+- Standard cable (no liquid cooling required)
+- Multiple units per site for throughput
+
+Fleet Depot (DC):
+- 60kW–120kW per gun for overnight fast turns
+- RFID authentication by vehicle/driver
+- CSMS integration with fleet management software
+
+Commercial Destination (Retail, Hotels):
+- 50kW–120kW provides ~1 hour for 60kWh battery
+- Multi-connector (CCS2 + AC output) supports mixed vehicle types
+
+Grasen CCS2-Compatible Products
+
+Grasen's DC charger lineup supports CCS2 configuration across multiple models:
+- T 60 (30–60kW): CCS2, compact wallbox
+- T 120C (120kW): CCS2 + optional AC
+- T 240 (240kW): CCS2 dual-gun, dynamic power
+- T 420 (420kW): CCS2 multi-gun, ultra-fast
+- T 480 (480kW): CCS2 dual-gun, ultra-fast
+- R 240 (240kW): CCS2 + CHAdeMO/GB/T combo options
+- S 240 (240kW): CCS2 with 55-inch advertising display
+- S 960/S 1600: Distributed systems for mega-site deployments
+
+All CCS2 configurations are CE-certified and OCPP 1.6J compliant.
+
+Procurement Checklist for CCS2 DC Fast Chargers
+
+☐ Confirm output voltage range covers target vehicles (especially 800V platforms)
+☐ Verify CE marking and relevant local certifications
+☐ Specify OCPP version required by your CSMS (1.6J or 2.0.1)
+☐ Choose cable type: standard vs liquid-cooled based on power level
+☐ Confirm IP rating for installation environment
+☐ Check warranty terms (hardware + remote support)
+☐ Verify connector configuration: CCS2 only vs CCS2+CHAdeMO combo
+☐ Request project references in target region
+
+Conclusion
+
+CCS2 is the dominant DC fast charging connector for international commercial deployments outside North America and China. Buyers specifying commercial charging stations should prioritize OCPP compliance, correct output voltage range for target vehicles, appropriate power levels for the site type, and certification compliance for the deployment market. Grasen's CCS2-compatible product range covers 30kW to 1,600kW applications with CE certification and OCPP 1.6J support.
+
+Thumbnail URL: https://upload.grasen.com/upload/2026/09/12/文章配图3_20260912085619A114.png
+Thumbnail Local Path: images/ccs2-dc-fast-chargers-commercial-stations/cover.png
+Content Images: (none extracted — JS-rendered page)
