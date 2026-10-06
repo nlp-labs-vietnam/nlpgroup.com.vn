@@ -1,7 +1,7 @@
 ---
-title: Tin tức — CD Restop
-description: Tin tức mới nhất về CD Restop — dự án hạ tầng an sinh, hợp tác đối tác, triển khai trạm sạc Scharge và GOMO Mart trên toàn quốc.
-author: CD Restop Corporation
+title: Tin tức — VNEGREEN
+description: Tin tức mới nhất về VNEGREEN — công nghệ sạc EV, hạ tầng xanh, giải pháp năng lượng bền vững và các dự án triển khai trên toàn cầu.
+author: VNEGREEN
 slug: news.html
 ogType: article
 ---
@@ -12,156 +12,199 @@ block content
 		.page__wrapper
 			+header
 			.page__center
-				.page__info.h5 CD Restop Corporation
-				.page__title.h2 Tin tức & Dự án
-				.upload.upload_empty
-					.upload__row
-						.upload__col
-							.upload__wrap
-								input.upload__input(type="file")
-								.upload__info.h6 Drag files here to upload
-								button.upload__btn.btn.btn_blue
-									+i('upload')
-									span.btn__text Or choose file
-						.upload__col
-							.upload__head
-								.upload__text.mr-auto.color-gray Other ways to upload
-								a.upload__link(href="#")
-									+i('arrows')
-							.upload__btns
-								.upload__file
-									input.upload__input(type="file")
-									button.upload__btn.btn.btn_blue
-										+i('upload')
-										span.btn__text New Video
-								button.upload__btn.btn.btn_purple-light(type="button")
-									+i('dropbox')
-									span.btn__text Dropbox
-							.upload__line
-								.upload__progress(style="width: 30%;")
-									.upload__tooltip 30%
-							.upload__note.caption-sm.color-gray Upgrade for up to 7TB with no weekly limits.
+				.page__info.h5 VNEGREEN
+				.page__title.h2 Tin tức & Công nghệ Xanh
+
+				//- Filter tags
 				.catalog
 					.catalog__tags
-						a.catalog__tag(href="#") All
-						a.catalog__tag(href="#") Stream Videos
-						a.catalog__tag(href="#") Videos
+						a.catalog__tag.active(href="#") Tất cả
+						a.catalog__tag(href="#") Sạc EV
+						a.catalog__tag(href="#") Hạ tầng
+						a.catalog__tag(href="#") Phần mềm
+						a.catalog__tag(href="#") Sự kiện
+
 					.catalog__row
 						.catalog__container
-							.catalog__title.h6 You uploaded 16 videos
-							.catalog__sorting
-								.catalog__box
-									label.checkbox
-										input.checkbox__input(type="checkbox")
-										span.checkbox__in
-											span.checkbox__tick
-									.field
-										.field__wrap
-											select.field__select
-												option Date uploaded
-												option New
-												option Free
-								.catalog__box
-									.catalog__actions
-										a.catalog__action(href="#")
-											+i('box')
-											| Move
-										a.catalog__action(href="#")
-											+i('box')
-											| Delete
-										a.catalog__action(href="#")
-											+i('box')
-											| Add to Playlist
-									.catalog__view
-										a.catalog__link(href="#")
-											+i('view-list')
-										a.catalog__link.active(href="#")
-											+i('view-cell')
+
+							.catalog__title.h6 10 bài viết mới nhất
+
+							//- News grid
 							.catalog__list
-								+game('img/card-pic-1.png')
-								+game('img/card-pic-2.png')
-								+game('img/card-pic-3.png')
-								+game('img/card-pic-4.png')
-								+game('img/card-pic-5.png')
-								+game('img/card-pic-6.png')
-								+game('img/card-pic-1.png')
-								+game('img/card-pic-2.png')
-								+game('img/card-pic-3.png')
-								+game('img/card-pic-4.png')
-								+game('img/card-pic-5.png')
-								+game('img/card-pic-6.png')
+
+								//- POST 001
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/ev-charging-management-software.png" alt="EV Charging Management Software")
+									.card__body
+										.card__category.caption-sm.color-blue Phần mềm
+										a.card__title.h6(href="#") Phần mềm Quản lý Sạc EV: Điều hành Mạng lưới từ Một Backend
+										.card__excerpt.caption-sm.color-gray Tìm hiểu cách phần mềm CSMS giúp vận hành viên giám sát trạm, quản lý người dùng, giá cả và thanh toán.
+										.card__footer
+											.card__date.caption-sm.color-gray 30.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 002
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/are-all-ev-chargers-the-same.jpg" alt="Are All EV Chargers the Same")
+									.card__body
+										.card__category.caption-sm.color-purple Sạc EV
+										a.card__title.h6(href="#") Các Bộ Sạc EV Có Giống Nhau Không? Câu Trả Lời Là Không
+										.card__excerpt.caption-sm.color-gray So sánh AC vs DC, tiêu chuẩn đầu cắm, công suất và tính năng thương mại của các loại sạc EV.
+										.card__footer
+											.card__date.caption-sm.color-gray 28.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 003
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/business-ev-charger-guide.png" alt="Business EV Charger Guide")
+									.card__body
+										.card__category.caption-sm.color-green Hạ tầng
+										a.card__title.h6(href="#") Hướng dẫn Sạc EV cho Doanh nghiệp: Chọn Giải Pháp Phù Hợp
+										.card__excerpt.caption-sm.color-gray Cách chọn bộ sạc EV phù hợp cho văn phòng, khách sạn, đội xe và địa điểm thương mại.
+										.card__footer
+											.card__date.caption-sm.color-gray 23.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 004
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/ev-charging-monetization.png" alt="EV Charging Monetization")
+									.card__body
+										.card__category.caption-sm.color-orange Kinh doanh
+										a.card__title.h6(href="#") 6 Cách Kiếm Doanh Thu từ Trạm Sạc EV Thương Mại
+										.card__excerpt.caption-sm.color-gray Phí sạc theo kWh, giá động, màn hình quảng cáo, gói thành viên — 6 mô hình doanh thu thực tiễn.
+										.card__footer
+											.card__date.caption-sm.color-gray 23.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 005
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/top-10-dc-fast-charger-manufacturers.png" alt="Top 10 DC Fast Charger Manufacturers")
+									.card__body
+										.card__category.caption-sm.color-blue Hạ tầng
+										a.card__title.h6(href="#") Top 10 Nhà Sản Xuất DC Fast Charger tại Trung Quốc (2026)
+										.card__excerpt.caption-sm.color-gray So sánh 10 nhà sản xuất sạc nhanh DC tại Trung Quốc — điểm mạnh, dòng sản phẩm và ứng dụng phù hợp.
+										.card__footer
+											.card__date.caption-sm.color-gray 22.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 006
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/how-to-use-grasen-app.png" alt="How to Use Grasen App")
+									.card__body
+										.card__category.caption-sm.color-purple Phần mềm
+										a.card__title.h6(href="#") Hướng dẫn Sử Dụng App Sạc EV: Tìm Trạm, Thanh Toán, Theo Dõi
+										.card__excerpt.caption-sm.color-gray Tìm trạm sạc gần nhất, kiểm tra giá, khởi động phiên sạc và thanh toán — tất cả trong một ứng dụng.
+										.card__footer
+											.card__date.caption-sm.color-gray 18.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 007
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/t480q-4-gun-dc-charger.png" alt="T480Q 4-Gun DC Charger")
+									.card__body
+										.card__category.caption-sm.color-green Sản phẩm
+										a.card__title.h6(href="#") Sạc DC 4 Súng 480kW T480Q — Giải Pháp Cho Trạm Lưu Lượng Cao
+										.card__excerpt.caption-sm.color-gray Trạm sạc 4 đầu cắm đồng thời, phân phối điện động, thiết kế cho địa điểm thương mại đông đúc.
+										.card__footer
+											.card__date.caption-sm.color-gray 16.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 008
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/dual-gun-power-sharing.jpg" alt="Dual-Gun Power Sharing")
+									.card__body
+										.card__category.caption-sm.color-blue Kỹ thuật
+										a.card__title.h6(href="#") Sạc DC 2 Súng: Cơ Chế Chia Sẻ Công Suất Hoạt Động Như Thế Nào?
+										.card__excerpt.caption-sm.color-gray Phân phối điện cố định vs động — điều gì xảy ra khi hai xe cùng sạc một lúc?
+										.card__footer
+											.card__date.caption-sm.color-gray 15.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 009
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/ccs2-dc-fast-chargers.png" alt="CCS2 DC Fast Chargers")
+									.card__body
+										.card__category.caption-sm.color-orange Hạ tầng
+										a.card__title.h6(href="#") Sạc DC Nhanh CCS2 cho Trạm Thương Mại: Điều Người Mua Cần Biết
+										.card__excerpt.caption-sm.color-gray Hướng dẫn chọn sạc DC nhanh CCS2 cho trạm thương mại, đội xe và dự án hạ tầng EV.
+										.card__footer
+											.card__date.caption-sm.color-gray 10.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
+								//- POST 010
+								.card.news-card
+									a.card__preview(href="#")
+										img.card__pic(src="img/news/canton-fair-2026.jpg" alt="Canton Fair 2026")
+									.card__body
+										.card__category.caption-sm.color-pink Sự kiện
+										a.card__title.h6(href="#") Gặp Gỡ VNEGREEN tại Hội Chợ Canton Fair 140 — Tháng 10/2026
+										.card__excerpt.caption-sm.color-gray Triển lãm sạc 4 súng 480kW, dòng R Series, AC charger và giải pháp sạc EV toàn diện.
+										.card__footer
+											.card__date.caption-sm.color-gray 08.09.2026
+											a.card__link.btn.btn_gray.btn_sm(href="#") Đọc thêm
+
 							.catalog__btns
-								button.catalog__btn.btn.btn_gray Load More
+								button.catalog__btn.btn.btn_gray Xem thêm bài viết
+
+						//- Sidebar widget
 						.catalog__sidebar
 							.widget
 								.widget__head
-									.widget__title.h6 Your Playlist 
-									a.widget__action(href="#")
-										+i('plus-sm')
-								.games.games_add
-									+gamesItem('img/game-1.png', 'Call of Duty®', 'Shooting')
-									+gamesItem('img/game-2.png', 'The Dota 2', 'eSport', 'active')
-									+gamesItem('img/game-3.png', 'League of Legends®', 'Online Game')
-									+gamesItem('img/game-4.png', 'Fortnite®', 'Shooting')
-									+gamesItem('img/game-1.png', 'Call of Duty®', 'Shooting')
-								button.widget__btn.btn.btn_gray.btn_wide Manage Your Playlist
+									.widget__title.h6 Chủ đề nổi bật
+								.catalog__tags.catalog__tags_col
+									a.catalog__tag(href="#") Sạc EV
+									a.catalog__tag(href="#") DC Fast Charging
+									a.catalog__tag(href="#") CCS2 / NACS
+									a.catalog__tag(href="#") OCPP
+									a.catalog__tag(href="#") CSMS
+									a.catalog__tag(href="#") Fleet Charging
+									a.catalog__tag(href="#") Hạ tầng xanh
+									a.catalog__tag(href="#") Triển lãm
+
 							.widget
 								.widget__head
-									.widget__title.h6 Views this month
-									a.widget__action(href="#")
-										+i('arrow-up-right')
+									.widget__title.h6 Số liệu nhanh
 								.details.details_sm
 									.details__container
-										.details__flex
-											.details__number.h1 483
-											.details__chart.details__chart_activity
-												div#chart-active-users
-										.details__flex
-											a.details__line(href="#")
-												.details__preview
-													img.details__pic(src="img/details-pic.png" alt="")
-												.details__info.caption-sm Page views per minute
-											.details__status
-												.details__icon.bg-blue
-													+i('arrow-down-fat')
-												.details__percent.caption-sm.color-blue 6%
-										.details__box
-											.details__chart.details__chart_counter
-												div#chart-users-counter
-											button.details__remove
-												+i('remove')
 										.details__list
 											.details__item
 												.details__head
-													.details__preview.bg-purple
-														img.details__pic(src="img/folder.svg" alt="")
-													.details__text.caption-sm.color-gray Viewers
-												.details__counter.h4 98k
-												.details__indicator
-													.details__progress.bg-purple(style="width: 55%;")
-											.details__item
-												.details__head
-													.details__preview.bg-pink
-														img.details__pic(src="img/activity.svg" alt="")
-													.details__text.caption-sm.color-gray Followers
-												.details__counter.h4 1m
-												.details__indicator
-													.details__progress.bg-pink(style="width: 52%;")
-											.details__item
-												.details__head
 													.details__preview.bg-blue
-														img.details__pic(src="img/bag.svg" alt="")
-													.details__text.caption-sm.color-gray Ads
-												.details__counter.h4 27$
+														+i('chart')
+													.details__text.caption-sm.color-gray Bài viết
+												.details__counter.h4 10
 												.details__indicator
-													.details__progress.bg-blue(style="width: 55%;")
+													.details__progress.bg-blue(style="width: 100%;")
+											.details__item
+												.details__head
+													.details__preview.bg-purple
+														+i('camera')
+													.details__text.caption-sm.color-gray Hình ảnh
+												.details__counter.h4 12
+												.details__indicator
+													.details__progress.bg-purple(style="width: 60%;")
+											.details__item
+												.details__head
+													.details__preview.bg-green
+														+i('star')
+													.details__text.caption-sm.color-gray Chủ đề
+												.details__counter.h4 5
+												.details__indicator
+													.details__progress.bg-green(style="width: 50%;")
 											.details__item
 												.details__head
 													.details__preview.bg-orange
-														img.details__pic(src="img/chat.svg" alt="")
-													.details__text.caption-sm.color-gray Videos
-												.details__counter.h4 16
+														+i('trending')
+													.details__text.caption-sm.color-gray Sự kiện
+												.details__counter.h4 1
 												.details__indicator
-													.details__progress.bg-orange(style="width: 68%;")
-
-				
+													.details__progress.bg-orange(style="width: 10%;")

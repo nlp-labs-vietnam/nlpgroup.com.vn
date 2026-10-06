@@ -92,14 +92,25 @@
 	&__container
 		flex-grow: 1
 	&__sidebar
-		display: none
 		flex-shrink: 0
 		width: 240px
 		margin-left: 32px
 		+m
-			display: block
 			width: 100%
 			margin: 32px 0 0
+	&__tags_col
+		flex-direction: column
+		flex-wrap: nowrap
+		margin: 0
+		overflow: visible
+		.catalog__tag
+			min-width: auto
+			width: 100%
+			margin: 4px 0 0 0
+			text-align: left
+			padding: 0 16px
+			line-height: 40px
+			border-radius: 8px
 	&__title
 		margin-bottom: 32px
 		+m
@@ -205,6 +216,22 @@
 			+nl
 				+m
 					margin-bottom: 40px
+	&__list .news-card
+		flex: 0 0 calc(33.333% - 32px)
+		width: calc(33.333% - 32px)
+		margin: 40px 16px 0
+		+w
+			flex: 0 0 calc(50% - 32px)
+			width: calc(50% - 32px)
+		+d
+			flex: 0 0 calc(50% - 32px)
+			width: calc(50% - 32px)
+		+m
+			width: 100%
+			margin: 0
+		+nl
+			+m
+				margin-bottom: 24px
 	&__btns
 		margin-top: 40px
 		text-align: center
