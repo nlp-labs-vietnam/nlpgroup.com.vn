@@ -3,14 +3,5 @@
   // https://developers.cloudflare.com/pages/
   "name": "nlpgroup-com-vn",
   "compatibility_date": "2025-01-01",
-  "pages_build_output_dir": "./build",
-
-  // Observability: Worker logs
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "invocation_logs": true,
-      "persist": true
-    }
-  }
+  "pages_build_output_dir": "./build"
 }
