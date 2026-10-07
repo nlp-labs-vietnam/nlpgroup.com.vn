@@ -6,15 +6,15 @@ mixin sidebar(item1, item2, item3, item4, item5, item6, item7, item8, item9, cla
 	.sidebar(class=classSidebar)
 		.sidebar__top
 			a.sidebar__logo(href="index.html")
-				img.sidebar__pic.sidebar__pic_black(src="img/logo.svg" alt="CD Restop")
-				img.sidebar__pic.sidebar__pic_white(src="img/logo-white.svg" alt="CD Restop")
+				img.sidebar__pic.sidebar__pic_black(src="img/logo.png" alt="NLP GROUP")
+				img.sidebar__pic.sidebar__pic_white(src="img/logo.png" alt="NLP GROUP")
 			button.sidebar__burger
 			button.sidebar__close
 				+i('close')
 		.sidebar__wrapper
 			.sidebar__inner
 				.sidebar__group
-					.sidebar__caption.caption-sm <span>CD </span>Restop
+					.sidebar__caption.caption-sm <span>NLP </span>GROUP
 					.sidebar__menu
 						a.sidebar__item(href="index.html" class=item1)
 							.sidebar__icon
@@ -89,13 +89,17 @@ mixin sidebar(item1, item2, item3, item4, item5, item6, item7, item8, item9, cla
 							.sidebar__icon
 								+i('chart')
 							.sidebar__text Nhà đầu tư
+						a.sidebar__item(href="nlp-group.html")
+							.sidebar__icon
+								+i('star')
+							.sidebar__text NLP GROUP
 			.sidebar__banner
 				.sidebar__bg(style="background-image: url('img/sidebar-banner.png');")
 				button.sidebar__remove
 					+i('remove')
 				.sidebar__details
-					.sidebar__title.h5 Tham gia&nbsp;CD Restop
-					.sidebar__info.caption-sm Kiến tạo hạ tầng an sinh cùng chúng tôi.
+					.sidebar__title.h5 Tham gia&nbsp;NLP GROUP
+					.sidebar__info.caption-sm Kiến tạo cuộc sống thành công cùng chúng tôi.
 					button.sidebar__btn.btn.btn_purple.btn_wide Tìm hiểu thêm
 		.sidebar__bottom
 			label.switch.switch_theme.js-switch-theme
@@ -120,7 +124,7 @@ mixin header
 				a.header__line(href="about.html")
 					.header__icon
 						+i('star')
-					.header__text Giới thiệu CD Restop
+					.header__text Giới thiệu NLP GROUP
 				a.header__line(href="ecosystem.html")
 					.header__icon
 						+i('star')
@@ -133,6 +137,10 @@ mixin header
 					.header__icon
 						+i('star')
 					.header__text Nhà đầu tư
+				a.header__line(href="nlp-group.html")
+					.header__icon
+						+i('star')
+					.header__text NLP GROUP
 				a.header__line(href="news.html")
 					.header__icon
 						+i('star')

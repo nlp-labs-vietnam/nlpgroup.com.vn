@@ -1,0 +1,181 @@
+---
+title: NLP GROUP — Tổ chức mẹ
+description: Công ty Cổ phần Tập đoàn NLP (NLP GROUP) — MST 0316942991, vốn điều lệ 1.172,5 tỷ VNĐ, Tổng Giám đốc Nhâm Quốc Huân, trụ sở TP. Thủ Đức, TP. Hồ Chí Minh.
+author: Nhâm Quốc Huân — Tổng Giám đốc, NLP GROUP Joint Stock Company
+slug: nlp-group.html
+ogType: article
+---
+extends layouts/_layout
+block content
+	.page
+		+sidebar('', '', '', '', '', '', '', '', '')
+		.page__wrapper
+			+header
+			.page__slider
+				.page__info.h5 NLP GROUP Joint Stock Company
+				.page__title.h2 Tổ chức mẹ
+				.main.main_trending.js-main
+					.main__body
+						.main__slider.js-slider.js-main-slider
+							mixin slideNLP(image, title, tag, sub)
+								.main__slide
+									.main__item(style="background-image: url(" + image + ");")
+										.main__details
+											.main__live.live.live_big #{tag}
+											.main__title.h4 #{title}
+											.main__parameters
+												.main__parameter
+													.main__icon
+														img.main__pic(src="img/league-of-legends.png" alt="")
+													.main__text #{sub}
+												.main__parameter 🇻🇳 Việt Nam
+											a.main__btn.btn.btn_purple(href="contact.html") Liên hệ hợp tác
+							+slideNLP('img/main-photo-1.png', 'Tập đoàn dẫn đầu hạ tầng xanh & công nghệ sạc EV tại Việt Nam', 'Tầm nhìn', 'NLP GROUP Corporation')
+							+slideNLP('img/main-photo-2.png', 'Vốn điều lệ 1.172,5 tỷ VNĐ — Nền tảng tài chính vững mạnh', 'Tài chính', 'MST: 0316942991')
+							+slideNLP('img/main-photo-1.png', 'Hệ thống CSMS — Quản lý trạm sạc EV thông minh 3 tầng', 'Công nghệ', 'OCPP 1.6-J / 2.0.1')
+					.main__foot
+						.main__counter.js-main-counter
+						.main__indicator Đang xem
+							span.main__status.js-main-status
+			.page__center
+				.trending
+					.trending__row
+						.trending__col
+							.trending__sorting
+								.trending__field.field.mobile-show
+									.field__wrap
+										select.field__select.purple
+											option Tất cả
+											option Pháp lý
+											option Công nghệ
+								.trending__tags
+									a.trending__tag.trending__tag_all(href='#') Tất cả
+									a.trending__tag(href='#') Pháp lý
+									a.trending__tag(href='#') Công nghệ
+								.trending__field.field
+									.field__wrap
+										select.field__select
+											option Mới nhất
+											option 2026
+							.trending__title.h6 Cơ cấu tổ chức NLP GROUP
+							.trending__list
+								mixin nlpCard(number, classNumber, image, title, role, dept)
+									.card
+										.card__inner
+											.card__bg(style="background-image: url(" + image + ");")
+												.card__number(class=classNumber)=number
+											.card__details
+												.card__head
+													.live #{dept}
+													.card__category NLP GROUP
+												.card__title.h6=title
+												.card__status
+													.status.blue Đang hoạt động
+													.status.green 2026
+												.card__user
+													.card__ava
+														img.card__pic(src="img/ava-1.png" alt="")
+													.card__desc
+														.card__man.confirm Nhâm Quốc Huân
+														.card__game Tổng Giám đốc
+										.card__actions
+											button.card__action
+												+i('reply')
+											button.card__action
+												+i('play-square')
+											button.card__action
+												+i('heart')
+								+nlpCard('', 'card__number_crown', 'img/card-pic-1.png', 'Đại hội đồng Cổ đông — Cơ quan quyền lực tối cao', 'Chiến lược tổng thể', 'ĐHĐCĐ')
+								+nlpCard('2', '', 'img/card-pic-2.png', 'Hội đồng Quản trị — Định hướng chiến lược đầu tư', 'Quản trị cấp cao', 'HĐQT')
+								+nlpCard('3', '', 'img/card-pic-3.png', 'Ban Tổng Giám đốc — Nhâm Quốc Huân điều hành trực tiếp', 'Điều hành', 'Ban TGĐ')
+								+nlpCard('4', '', 'img/card-pic-4.png', 'Khối Vận hành & Kỹ thuật — CSMS, OCPP Gateway, Mobile App', 'Công nghệ & Hạ tầng', 'Kỹ thuật')
+								+nlpCard('5', '', 'img/card-pic-1.png', 'Khối Tài chính & Đầu tư — MBBank Chi nhánh An Phú', 'Tài chính doanh nghiệp', 'Tài chính')
+								+nlpCard('6', '', 'img/card-pic-2.png', 'Bộ phận Kỹ thuật Hiện trường — Vận hành trụ Grasen VP10/02', 'Vận hành thực địa', 'NOC')
+							.trending__btns
+								button.trending__btn.btn.btn_gray Xem thêm
+						.trending__col
+							.trending__item.trending__item_streamers
+								.trending__title.h6 Ban lãnh đạo NLP GROUP
+								.trending__group.js-slider-streamers.js-slider-resize
+									.trending__slide
+										a.trending__user(href="#")
+											.trending__ava
+												img.trending__pic(src="img/ava-1.png" alt="")
+											.trending__desc
+												.trending__man.confirm Nhâm Quốc Huân
+												.trending__game Tổng Giám đốc
+												.status.orange CEO
+									.trending__slide
+										a.trending__user(href="#")
+											.trending__ava
+												img.trending__pic(src="img/ava-2.png" alt="")
+											.trending__desc
+												.trending__man HĐQT NLP GROUP
+												.trending__game Hội đồng Quản trị
+												.status.orange HĐQT
+									.trending__slide
+										a.trending__user(href="#")
+											.trending__ava
+												img.trending__pic(src="img/ava-3.png" alt="")
+											.trending__desc
+												.trending__man Khối Kỹ thuật
+												.trending__game EV Tech Core / CSMS
+												.status.orange CTO Unit
+									.trending__slide
+										a.trending__user(href="#")
+											.trending__ava
+												img.trending__pic(src="img/ava-4.png" alt="")
+											.trending__desc
+												.trending__man Khối Tài chính
+												.trending__game MBBank - Chi nhánh An Phú
+												.status.orange CFO Unit
+								button.trending__btn.btn.btn_gray.btn_wide Liên hệ tổ chức mẹ
+							.trending__item
+								.trending__title.h6 Thông tin pháp nhân
+								.trending__slider.js-slider-games.js-slider-resize
+									.trending__slide
+										a.trending__box(href="#")
+											.trending__preview
+												img.trending__pic(src="img/game-pic-1.png" alt="")
+											.trending__details
+												.trending__game MST: 0316942991
+												.trending__text CÔNG TY CỔ PHẦN TẬP ĐOÀN NLP
+									.trending__slide
+										a.trending__box(href="#")
+											.trending__preview
+												img.trending__pic(src="img/game-pic-2.png" alt="")
+											.trending__details
+												.trending__game Vốn điều lệ
+												.trending__text 1.172.500.000.000 VNĐ
+									.trending__slide
+										a.trending__box(href="#")
+											.trending__preview
+												img.trending__pic(src="img/game-pic-3.png" alt="")
+											.trending__details
+												.trending__game Trụ sở chính
+												.trending__text Số 16 Đường D1, Mega Village Khang Điền, P. Phú Hữu, TP. Thủ Đức, TP.HCM
+									.trending__slide
+										a.trending__box(href="#")
+											.trending__preview
+												img.trending__pic(src="img/game-pic-4.png" alt="")
+											.trending__details
+												.trending__game Đại diện pháp luật
+												.trending__text Nhâm Quốc Huân — Tổng Giám đốc
+								button.trending__btn.btn.btn_gray.btn_wide Xem hồ sơ pháp lý
+			.page__center
+				.collection
+					.collection__head
+						.collection__title.h5 Phân hệ quản lý CSMS
+						.collection__field.field
+							.field__wrap
+								select.field__select
+									option Tất cả
+									option Admin
+									option NOC/DevOps
+									option EV Driver
+					.collection__list
+						+card('img/card-pic-1.png', 'CPO & Admin Operator — Web Dashboard, REST/GraphQL API', 'img/ava-1.png', 'confirm', 'Ban Quản trị', 'React/Next.js')
+						+card('img/card-pic-2.png', 'NOC/DevOps — OCPP Gateway WSS 1.6-J / 2.0.1, TimescaleDB/Redis', 'img/ava-2.png', 'confirm', 'Kỹ thuật & Giám sát', 'OCPP Gateway')
+						+card('img/card-pic-3.png', 'EV Drivers — Tìm trạm, QR kích hoạt, ví cước, theo dõi SoC', 'img/ava-3.png', 'confirm', 'Người dùng cuối', 'Flutter/React Native')
+						+card('img/card-pic-4.png', 'Cổng thanh toán — VietQR, MoMo, Thẻ quốc tế tích hợp ví cước', 'img/ava-4.png', '', 'Thanh toán', 'VietQR / MoMo')
+				+categories('Hệ sinh thái NLP GROUP')
